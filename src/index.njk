@@ -1,0 +1,84 @@
+---
+layout: base.njk
+title: Home
+---
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light">{{ home.hero_eyebrow }}</p>
+      <h1 class="display">
+        {{ home.hero_heading_top }}<br>
+        <span class="accent">{{ home.hero_heading_highlight }}</span> {{ home.hero_heading_rest }}<br>
+        {{ home.hero_heading_bottom }}
+      </h1>
+      <p class="lede lede--light">{{ home.hero_subtext }}</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="{{ home.hero_button_primary_url }}">{{ home.hero_button_primary_text }}</a>
+        <a class="btn btn--outline-light" href="{{ home.hero_button_secondary_url }}">{{ home.hero_button_secondary_text }}</a>
+      </div>
+    </div>
+    <div class="hero__media">
+      <img src="{{ home.hero_image_1 }}" alt="" class="hero__img hero__img--1">
+      <img src="{{ home.hero_image_2 }}" alt="" class="hero__img hero__img--2">
+    </div>
+  </div>
+  {% set nextEvent = collections.events[0] %}
+  {% if nextEvent %}
+  <div class="next-event-badge">
+    <p class="next-event-badge__label">{{ home.next_event_badge_label }}</p>
+    <p class="next-event-badge__title">{{ nextEvent.data.title }}</p>
+    <p class="next-event-badge__countdown" data-countdown="{{ nextEvent.data.date_iso | isoDate }}">—</p>
+  </div>
+  {% endif %}
+</section>
+
+<section class="section" id="who">
+  <div class="wrap who-grid">
+    <div>
+      <p class="eyebrow">{{ home.who_eyebrow }}</p>
+      <h2 class="display display--md">{{ home.who_heading }}</h2>
+      <p class="lede">{{ home.who_text }}</p>
+    </div>
+    <div class="stats">
+      {% for stat in home.stats %}
+      <div class="stat">
+        <p class="stat__number">{{ stat.number }}</p>
+        <p class="stat__label">{{ stat.label }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--events" id="events">
+  <div class="wrap">
+    <p class="eyebrow">{{ home.events_eyebrow }}</p>
+    <h2 class="display display--md">{{ home.events_heading }}</h2>
+    <p class="lede lede--narrow">{{ home.events_text }}</p>
+
+    <div class="events-tabs-wrap">
+      <div class="events-tabs" role="tablist">
+        <button class="events-tab is-active" data-filter="all">{{ home.events_tab_all }}</button>
+        <button class="events-tab" data-filter="watch_party">{{ home.events_tab_watch }}</button>
+        <button class="events-tab" data-filter="other">{{ home.events_tab_other }}</button>
+      </div>
+    </div>
+
+    <div class="timeline">
+      {% set button_text = home.events_card_button_text %}
+      {% for event in collections.events %}
+        {% include "partials/event-timeline-item.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="den">
+  <div class="wrap den">
+    <span class="badge">{{ home.den_badge_label }}</span>
+    <h2 class="display display--md">{{ home.den_heading }}</h2>
+    <p class="lede">{{ home.den_text }}</p>
+    <a class="btn btn--primary" href="{{ home.den_button_url }}">{{ home.den_button_text }}</a>
+    <p class="fine-print">{{ home.den_note }}</p>
+  </div>
+</section>

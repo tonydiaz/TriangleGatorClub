@@ -1,0 +1,54 @@
+---
+layout: base.njk
+title: About & Contact
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">{{ about.hero_eyebrow }}</p>
+    <h1 class="display light">{{ about.hero_heading }}</h1>
+    <p class="lede lede--light lede--narrow">{{ about.hero_subtext }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap prose">
+    <h2 class="display display--md">{{ about.story_heading }}</h2>
+    <p class="lede">{{ about.story_paragraph_1 }}</p>
+    <p class="lede">{{ about.story_paragraph_2 }}</p>
+    <p class="lede">{{ about.story_paragraph_3 }}</p>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <h2 class="display display--md light center">{{ about.team_heading }}</h2>
+    <div class="team-grid">
+      {% for person in about.team %}
+      <div class="team-card">
+        <div class="team-card__avatar">{{ person.initials }}</div>
+        <h3>{{ person.name }}</h3>
+        <p class="team-card__role">{{ person.role }}</p>
+        <p class="team-card__degree">{{ person.degree }}</p>
+        <a class="link-arrow" href="mailto:{{ person.email }}">Email</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ about.contact_heading }}</p>
+      <p class="lede">{{ about.contact_text }}</p>
+      <p><a class="link-arrow" href="mailto:{{ about.contact_email }}">{{ about.contact_email }}</a></p>
+      <p><a class="link-arrow" href="{{ about.contact_facebook_url }}">{{ about.contact_facebook_text }}</a></p>
+      <p><a class="link-arrow" href="{{ about.contact_instagram_url }}">{{ about.contact_instagram_handle }}</a></p>
+    </div>
+    <div>
+      <p class="eyebrow">{{ about.venue_heading }}</p>
+      <p class="lede">{{ about.venue_name_address }}</p>
+      <a class="btn btn--outline" href="{{ about.venue_map_url }}">{{ about.venue_button_text }}</a>
+    </div>
+  </div>
+</section>

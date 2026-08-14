@@ -1,0 +1,27 @@
+{# Expects: event (a collection item), mode ("home" or "sponsor"), button_text #}
+<article class="event-card" data-tab="{{ event.data.tab }}">
+  <div class="event-card__date">
+    <span class="event-card__month">{{ event.data.date_iso | monthShort }}</span>
+    <span class="event-card__day">{{ event.data.date_iso | dayNum }}</span>
+  </div>
+  <div class="event-card__body">
+    <div class="event-card__tags">
+      <span class="tag">{{ event.data.category }}</span>
+      {% if event.data.opponent_line %}<span class="tag tag--muted">{{ event.data.opponent_line }}</span>{% endif %}
+    </div>
+    <h3>{{ event.data.title }}</h3>
+    <div class="event-card__desc">{{ event.templateContent | safe }}</div>
+    <p class="event-card__meta">{{ event.data.time_label }}<br>{{ event.data.location }}</p>
+    <div class="event-card__actions">
+      {% if mode == "sponsor" %}
+        <a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>
+      {% else %}
+        <a class="link-arrow" href="{{ event.data.calendar_url }}">Add to Calendar</a>
+        <a class="link-arrow" href="{{ event.data.discuss_url }}">Discuss in the Group</a>
+        {% if event.data.sponsor_available %}
+        <a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</article>

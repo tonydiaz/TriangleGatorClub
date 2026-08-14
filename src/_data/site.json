@@ -1,0 +1,27 @@
+{
+  "brand_prefix": "TRIANGLE",
+  "brand_highlight": "GATOR",
+  "brand_suffix": "CLUB",
+  "nav_links": [
+    { "label": "Events", "url": "/#events" },
+    { "label": "The Den", "url": "/#den" },
+    { "label": "Scholarship", "url": "/scholarship/" },
+    { "label": "Sponsor", "url": "/sponsor/" },
+    { "label": "About & Contact", "url": "/about/" }
+  ],
+  "nav_button_text": "Join the Den",
+  "nav_button_url": "https://www.facebook.com/groups/trianglegatorclub",
+  "marquee_text": "GATOR NATION IS EVERYWHERE —",
+  "footer_tagline": "Raleigh · Durham · Surrounding Areas, NC",
+  "footer_email": "hello@trianglegatorclub.com",
+  "footer_venue": "Tobacco Road Sports Cafe",
+  "footer_links": [
+    { "label": "About & Contact", "url": "/about/" },
+    { "label": "Events", "url": "/#events" },
+    { "label": "Scholarship", "url": "/scholarship/" },
+    { "label": "Sponsor a Game", "url": "/sponsor/" }
+  ],
+  "footer_copyright": "© 2026 Triangle Gator Club · Not affiliated with the University of Florida Athletic Association.",
+  "facebook_url": "https://www.facebook.com/groups/trianglegatorclub",
+  "instagram_url": "https://instagram.com/trianglegatorclub"
+}

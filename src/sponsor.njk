@@ -1,0 +1,53 @@
+---
+layout: base.njk
+title: Sponsor a Game
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">{{ sponsor.hero_eyebrow }}</p>
+    <h1 class="display light">{{ sponsor.hero_heading }}</h1>
+    <p class="lede lede--light lede--narrow">{{ sponsor.hero_subtext }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="tier-grid">
+      {% for tier in sponsor.tiers %}
+      <div class="tier-card">
+        <h3>{{ tier.name }}</h3>
+        <p class="tier-card__price">{{ tier.price }}</p>
+        <ul class="checklist">
+          {% for feature in tier.features %}
+          <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+        <a class="btn btn--outline" href="{{ tier.button_url }}">{{ tier.button_text }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">{{ sponsor.open_games_eyebrow }}</p>
+    <h2 class="display display--md light">{{ sponsor.open_games_heading }}</h2>
+    <p class="lede lede--light lede--narrow">{{ sponsor.open_games_text }}</p>
+
+    <div class="event-grid event-grid--compact">
+      {% set mode = "sponsor" %}
+      {% set button_text = sponsor.sponsor_button_text %}
+      {% for event in collections.events %}
+        {% include "partials/event-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--cta">
+  <div class="wrap center">
+    <p class="lede">{{ sponsor.custom_text }}</p>
+    <a class="btn btn--primary" href="{{ sponsor.custom_button_url }}">{{ sponsor.custom_button_text }}</a>
+  </div>
+</section>

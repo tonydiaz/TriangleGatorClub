@@ -1,0 +1,14 @@
+{
+  "name": "triangle-gator-club",
+  "version": "1.0.0",
+  "description": "Triangle Gator Club website — Eleventy static site with Decap CMS",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

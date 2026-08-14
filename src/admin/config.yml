@@ -1,0 +1,218 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME # TODO: replace with your repo, e.g. octocat/triangle-gator-club
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Set this to your deployed site's URL so "Preview" links and local dev work correctly.
+site_url: https://YOUR-SITE-NAME.netlify.app
+display_url: https://YOUR-SITE-NAME.netlify.app
+logo_url: /images/uploads/hero-1.svg
+
+local_backend: true
+
+media_folder: src/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: src/_data/site.json
+        name: site
+        label: "Site Settings (Nav & Footer)"
+        description: "Header navigation, footer links, contact info shown on every page."
+        fields:
+          - { label: "Brand — First Word", name: brand_prefix, widget: string }
+          - { label: "Brand — Highlighted Word", name: brand_highlight, widget: string }
+          - { label: "Brand — Last Word", name: brand_suffix, widget: string }
+          - label: "Header Navigation Links"
+            name: nav_links
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: url, widget: string }
+          - { label: "Header Button Text", name: nav_button_text, widget: string }
+          - { label: "Header Button URL", name: nav_button_url, widget: string }
+          - { label: "Scrolling Banner Text", name: marquee_text, widget: string }
+          - { label: "Footer Tagline", name: footer_tagline, widget: string }
+          - { label: "Footer Email", name: footer_email, widget: string }
+          - { label: "Footer Venue Name", name: footer_venue, widget: string }
+          - label: "Footer Links"
+            name: footer_links
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: url, widget: string }
+          - { label: "Footer Copyright Line", name: footer_copyright, widget: string }
+          - { label: "Facebook URL", name: facebook_url, widget: string }
+          - { label: "Instagram URL", name: instagram_url, widget: string }
+
+      - file: src/_data/home.json
+        name: home
+        label: "Home Page"
+        fields:
+          - { label: "Hero Eyebrow Text", name: hero_eyebrow, widget: string }
+          - { label: "Hero Heading — Line 1", name: hero_heading_top, widget: string }
+          - { label: "Hero Heading — Highlighted Word", name: hero_heading_highlight, widget: string }
+          - { label: "Hero Heading — Rest of Line 2", name: hero_heading_rest, widget: string }
+          - { label: "Hero Heading — Line 3", name: hero_heading_bottom, widget: string }
+          - { label: "Hero Subtext", name: hero_subtext, widget: text }
+          - { label: "Hero Primary Button Text", name: hero_button_primary_text, widget: string }
+          - { label: "Hero Primary Button URL", name: hero_button_primary_url, widget: string }
+          - { label: "Hero Secondary Button Text", name: hero_button_secondary_text, widget: string }
+          - { label: "Hero Secondary Button URL", name: hero_button_secondary_url, widget: string }
+          - { label: "Hero Image 1", name: hero_image_1, widget: image }
+          - { label: "Hero Image 2", name: hero_image_2, widget: image }
+          - { label: "'Next Event' Badge Label", name: next_event_badge_label, widget: string }
+
+          - { label: "Who We Are — Eyebrow", name: who_eyebrow, widget: string }
+          - { label: "Who We Are — Heading", name: who_heading, widget: string }
+          - { label: "Who We Are — Text", name: who_text, widget: text }
+          - label: "Stats Row"
+            name: stats
+            widget: list
+            fields:
+              - { label: Number, name: number, widget: string }
+              - { label: Label, name: label, widget: string }
+
+          - { label: "Events — Eyebrow", name: events_eyebrow, widget: string }
+          - { label: "Events — Heading", name: events_heading, widget: string }
+          - { label: "Events — Intro Text", name: events_text, widget: text }
+          - { label: "Events Tab — All", name: events_tab_all, widget: string }
+          - { label: "Events Tab — Watch Parties", name: events_tab_watch, widget: string }
+          - { label: "Events Tab — Other", name: events_tab_other, widget: string }
+          - { label: "Event Card Sponsor Button Text", name: events_card_button_text, widget: string }
+
+          - { label: "Den — Badge Label", name: den_badge_label, widget: string }
+          - { label: "Den — Heading", name: den_heading, widget: string }
+          - { label: "Den — Text", name: den_text, widget: text }
+          - { label: "Den — Button Text", name: den_button_text, widget: string }
+          - { label: "Den — Button URL", name: den_button_url, widget: string }
+          - { label: "Den — Fine Print Note", name: den_note, widget: string }
+
+      - file: src/_data/about.json
+        name: about
+        label: "About & Contact Page"
+        fields:
+          - { label: "Hero Eyebrow", name: hero_eyebrow, widget: string }
+          - { label: "Hero Heading", name: hero_heading, widget: string }
+          - { label: "Hero Subtext", name: hero_subtext, widget: text }
+
+          - { label: "Story Heading", name: story_heading, widget: string }
+          - { label: "Story Paragraph 1", name: story_paragraph_1, widget: text }
+          - { label: "Story Paragraph 2", name: story_paragraph_2, widget: text }
+          - { label: "Story Paragraph 3 (Membership)", name: story_paragraph_3, widget: text }
+
+          - { label: "Team Section Heading", name: team_heading, widget: string }
+          - label: "Team Members"
+            name: team
+            widget: list
+            fields:
+              - { label: Initials, name: initials, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Degree, name: degree, widget: string }
+              - { label: Email, name: email, widget: string }
+
+          - { label: "Contact Heading", name: contact_heading, widget: string }
+          - { label: "Contact Text", name: contact_text, widget: text }
+          - { label: "Contact Email", name: contact_email, widget: string }
+          - { label: "Contact Facebook Text", name: contact_facebook_text, widget: string }
+          - { label: "Contact Facebook URL", name: contact_facebook_url, widget: string }
+          - { label: "Contact Instagram Handle", name: contact_instagram_handle, widget: string }
+          - { label: "Contact Instagram URL", name: contact_instagram_url, widget: string }
+
+          - { label: "Venue Heading", name: venue_heading, widget: string }
+          - { label: "Venue Name & Address", name: venue_name_address, widget: string }
+          - { label: "Venue Button Text", name: venue_button_text, widget: string }
+          - { label: "Venue Map URL", name: venue_map_url, widget: string }
+
+      - file: src/_data/scholarship.json
+        name: scholarship
+        label: "Scholarship Page"
+        fields:
+          - { label: "Hero Eyebrow", name: hero_eyebrow, widget: string }
+          - { label: "Hero Heading", name: hero_heading, widget: string }
+          - { label: "Hero Subtext", name: hero_subtext, widget: text }
+          - { label: "Hero Button Text", name: hero_button_text, widget: string }
+          - { label: "Hero Button URL", name: hero_button_url, widget: string }
+
+          - { label: "Covers — Eyebrow", name: covers_eyebrow, widget: string }
+          - { label: "Covers — Heading", name: covers_heading, widget: string }
+          - { label: "Covers — Text", name: covers_text, widget: text }
+          - { label: "Eligibility Text", name: eligibility_text, widget: string }
+          - { label: "Selection Text", name: selection_text, widget: string }
+
+          - { label: "History — Eyebrow", name: history_eyebrow, widget: string }
+          - { label: "History — Heading", name: history_heading, widget: string }
+          - label: "History Timeline"
+            name: history_items
+            widget: list
+            fields:
+              - { label: Year, name: year, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+          - { label: "Closing CTA — Heading", name: cta_heading, widget: string }
+          - { label: "Closing CTA — Text", name: cta_text, widget: text }
+          - { label: "Closing CTA — Button Text", name: cta_button_text, widget: string }
+          - { label: "Closing CTA — Button URL", name: cta_button_url, widget: string }
+
+      - file: src/_data/sponsor.json
+        name: sponsor
+        label: "Sponsor Page"
+        fields:
+          - { label: "Hero Eyebrow", name: hero_eyebrow, widget: string }
+          - { label: "Hero Heading", name: hero_heading, widget: string }
+          - { label: "Hero Subtext", name: hero_subtext, widget: text }
+
+          - label: "Sponsorship Tiers"
+            name: tiers
+            widget: list
+            fields:
+              - { label: "Tier Name", name: name, widget: string }
+              - { label: Price, name: price, widget: string }
+              - label: Features
+                name: features
+                widget: list
+                field: { label: Feature, name: feature, widget: string }
+              - { label: "Button Text", name: button_text, widget: string }
+              - { label: "Button URL", name: button_url, widget: string }
+
+          - { label: "Open Games — Eyebrow", name: open_games_eyebrow, widget: string }
+          - { label: "Open Games — Heading", name: open_games_heading, widget: string }
+          - { label: "Open Games — Text", name: open_games_text, widget: text }
+          - { label: "Per-Event Sponsor Button Text", name: sponsor_button_text, widget: string }
+
+          - { label: "Custom Package — Text", name: custom_text, widget: string }
+          - { label: "Custom Package — Button Text", name: custom_button_text, widget: string }
+          - { label: "Custom Package — Button URL", name: custom_button_url, widget: string }
+
+  - name: events
+    label: Events
+    folder: src/events
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Event Title", name: title, widget: string }
+      - { label: "Description", name: body, widget: text }
+      - label: "Category Badge"
+        name: category
+        widget: select
+        options: ["WATCH PARTY", "SOCIAL", "GATOR GOOD", "CLUB MEETING"]
+      - label: "Filter Tab"
+        name: tab
+        widget: select
+        options: [{ label: "Watch Parties", value: "watch_party" }, { label: "Other Events", value: "other" }]
+      - { label: "Opponent / Sub-label (e.g. VS. GEORGIA)", name: opponent_line, widget: string, required: false }
+      - { label: "Date", name: date_iso, widget: date, format: "YYYY-MM-DD" }
+      - { label: "Time / Day Label (e.g. Saturday, 3:00 PM)", name: time_label, widget: string }
+      - { label: "Location", name: location, widget: string }
+      - { label: "'Add to Calendar' URL", name: calendar_url, widget: string }
+      - { label: "'Discuss in the Group' URL", name: discuss_url, widget: string }
+      - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
+      - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string }
+      - { label: "Hide from listings (keep page from being built)", name: permalink, widget: hidden, default: false }

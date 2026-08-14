@@ -1,0 +1,39 @@
+{
+  "hero_eyebrow": "RALEIGH · DURHAM · SURROUNDING AREAS, NC",
+  "hero_heading_top": "THE SWAMP",
+  "hero_heading_highlight": "EXTENDS",
+  "hero_heading_rest": "TO THE",
+  "hero_heading_bottom": "TRIANGLE.",
+  "hero_subtext": "The official gathering place for Florida Gators alumni and fans across Raleigh, Durham and the surrounding areas. Watch parties every game day, service in the community, and a whole lot of orange and blue.",
+  "hero_button_primary_text": "See Upcoming Events",
+  "hero_button_primary_url": "/#events",
+  "hero_button_secondary_text": "Join the Den",
+  "hero_button_secondary_url": "https://www.facebook.com/groups/trianglegatorclub",
+  "hero_image_1": "/images/uploads/hero-1.svg",
+  "hero_image_2": "/images/uploads/hero-2.svg",
+  "next_event_badge_label": "NEXT EVENT",
+
+  "who_eyebrow": "WHO WE ARE",
+  "who_heading": "ORANGE & BLUE, NINE HOURS NORTH.",
+  "who_text": "We're the Florida Gators club for Raleigh, Durham and the surrounding areas — a few hundred alumni, transplants and adopted Gators who show up loud on Saturdays and give back the rest of the week.",
+  "stats": [
+    { "number": "600+", "label": "Alumni & fans in the Triangle" },
+    { "number": "12", "label": "Watch parties every season" },
+    { "number": "$14K", "label": "Raised for student scholarships" }
+  ],
+
+  "events_eyebrow": "THE GAME PLAN",
+  "events_heading": "UPCOMING EVENTS",
+  "events_text": "Watch parties, socials and service days across the Triangle. Everyone is welcome — degree or not.",
+  "events_tab_all": "All Events",
+  "events_tab_watch": "Watch Parties",
+  "events_tab_other": "Other Events",
+  "events_card_button_text": "Become a Sponsor",
+
+  "den_badge_label": "MEMBERS ONLY",
+  "den_heading": "THE INNER CIRCLE",
+  "den_text": "Our day-to-day lives in a private Facebook group — last-minute watch party changes, ticket swaps, tailgate plans and the group chat energy you'd expect from Gator Nation. Request to join and a board member will approve you.",
+  "den_button_text": "Join the Den on Facebook",
+  "den_button_url": "https://www.facebook.com/groups/trianglegatorclub",
+  "den_note": "Private group · approval usually within 24 hours"
+}

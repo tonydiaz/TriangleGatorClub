@@ -1,0 +1,26 @@
+{
+  "hero_eyebrow": "GATOR GOOD",
+  "hero_heading": "THE TRIANGLE GATOR SCHOLARSHIP",
+  "hero_subtext": "Every dollar we raise beyond running the club goes to a scholarship that helps a Triangle-area student afford life at the University of Florida. It's the single biggest thing we do.",
+  "hero_button_text": "Donate on Givebutter",
+  "hero_button_url": "https://givebutter.com/",
+
+  "covers_eyebrow": "WHAT IT COVERS",
+  "covers_heading": "$2,500 TOWARD FIRST-YEAR COSTS",
+  "covers_text": "Each year the club awards a scholarship to a graduating high-school senior from Raleigh, Durham and the surrounding areas who is enrolling at the University of Florida. The award is paid directly to the student and can be put toward tuition, housing, books or the move to Gainesville.",
+  "eligibility_text": "Eligibility: Triangle-area senior accepted to UF for the fall term.",
+  "selection_text": "Selection: Board reviews applications, short essays and a short interview.",
+
+  "history_eyebrow": "HOW IT GREW",
+  "history_heading": "A DECADE OF SENDING GATORS SOUTH",
+  "history_items": [
+    { "year": "2014", "title": "First scholarship awarded", "description": "A single $500 book stipend to a Wake County senior heading to Gainesville." },
+    { "year": "2019", "title": "Endowed at $10,000 / year", "description": "Board voted to guarantee a minimum annual award regardless of fundraising." },
+    { "year": "2024", "title": "Three awards, one state", "description": "Scholarships now support students from Raleigh, Durham and the surrounding areas." }
+  ],
+
+  "cta_heading": "HELP SEND THE NEXT GATOR SOUTH",
+  "cta_text": "Donations are processed securely through Givebutter. You can give once or set up a monthly gift — every bit of it goes to the scholarship fund.",
+  "cta_button_text": "Donate on Givebutter",
+  "cta_button_url": "https://givebutter.com/"
+}

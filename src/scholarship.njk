@@ -1,0 +1,48 @@
+---
+layout: base.njk
+title: Scholarship
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">{{ scholarship.hero_eyebrow }}</p>
+    <h1 class="display light">{{ scholarship.hero_heading }}</h1>
+    <p class="lede lede--light lede--narrow">{{ scholarship.hero_subtext }}</p>
+    <a class="btn btn--primary" href="{{ scholarship.hero_button_url }}">{{ scholarship.hero_button_text }}</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap prose">
+    <p class="eyebrow">{{ scholarship.covers_eyebrow }}</p>
+    <h2 class="display display--md">{{ scholarship.covers_heading }}</h2>
+    <p class="lede">{{ scholarship.covers_text }}</p>
+    <ul class="checklist">
+      <li>{{ scholarship.eligibility_text }}</li>
+      <li>{{ scholarship.selection_text }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">{{ scholarship.history_eyebrow }}</p>
+    <h2 class="display display--md light">{{ scholarship.history_heading }}</h2>
+    <div class="history-timeline">
+      {% for item in scholarship.history_items %}
+      <div class="history-timeline__item">
+        <p class="history-timeline__year">{{ item.year }}</p>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--cta">
+  <div class="wrap center">
+    <h2 class="display display--md">{{ scholarship.cta_heading }}</h2>
+    <p class="lede">{{ scholarship.cta_text }}</p>
+    <a class="btn btn--primary" href="{{ scholarship.cta_button_url }}">{{ scholarship.cta_button_text }}</a>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__col">
+      <a class="brand" href="/">
+        <span>{{ site.brand_prefix }}</span>
+        <span class="brand--accent">{{ site.brand_highlight }}</span>
+        <span>{{ site.brand_suffix }}</span>
+      </a>
+      <p>{{ site.footer_tagline }}</p>
+    </div>
+    <div class="site-footer__col">
+      <p><a href="mailto:{{ site.footer_email }}">{{ site.footer_email }}</a></p>
+      <p>{{ site.footer_venue }}</p>
+    </div>
+    <div class="site-footer__col site-footer__links">
+      {% for link in site.footer_links %}
+      <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="site-footer__copyright">{{ site.footer_copyright }}</p>
+  </div>
+</footer>
