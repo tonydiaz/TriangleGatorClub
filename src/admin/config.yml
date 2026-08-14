@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME # TODO: replace with your repo, e.g. octocat/triangle-gator-club
+  repo: tonydiaz/TriangleGatorClub
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
 
 # Set this to your deployed site's URL so "Preview" links and local dev work correctly.
-site_url: https://YOUR-SITE-NAME.netlify.app
-display_url: https://YOUR-SITE-NAME.netlify.app
+site_url: https://trianglegatorclub.netlify.app
+display_url: https://trianglegatorclub.netlify.app
 logo_url: /images/uploads/hero-1.svg
 
 local_backend: true
