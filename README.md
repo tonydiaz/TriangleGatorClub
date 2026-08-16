@@ -72,24 +72,54 @@ git push -u origin main
 2. Build command: `npm run build` — Publish directory: `_site` (already set in `netlify.toml`).
 3. Deploy. Note the site's `*.netlify.app` URL (or attach your own domain).
 
-## 4. Wire up Decap CMS login (GitHub OAuth via Netlify)
+## 4. Wire up Decap CMS login (Netlify Identity + Git Gateway — supports "Login with Google")
 
-Decap needs to authenticate editors against GitHub before it can commit their changes. Netlify
-can run that OAuth handshake for you for free, with no extra server:
+This template uses the `git-gateway` backend (see `src/admin/config.yml`), which routes editor
+logins through **Netlify Identity** instead of GitHub OAuth. Identity supports one-click login
+via Google (and GitHub, GitLab, Bitbucket, email/password), and Git Gateway commits to the repo
+on the editor's behalf using Netlify's own credentials — so editors never need their own GitHub
+account or repo access.
 
-1. **Create a GitHub OAuth App**: GitHub → Settings → Developer settings → OAuth Apps → New OAuth App.
-   - Homepage URL: your Netlify site URL (e.g. `https://your-site.netlify.app`)
-   - Authorization callback URL: `https://api.netlify.com/auth/done`
-   - Save it, then generate a **Client Secret**. Keep the Client ID and Secret handy.
-2. **Register them in Netlify**: your site → Site configuration → General → Access & security →
-   OAuth → **Install provider** → GitHub → paste the Client ID and Secret.
-3. **Edit `src/admin/config.yml`** in the repo and replace the placeholders:
-   - `repo:` → `YOUR-USERNAME/YOUR-REPO-NAME`
-   - `site_url:` / `display_url:` → your real Netlify URL
-   Commit and push — Netlify redeploys automatically.
-4. Visit `https://your-site.netlify.app/admin/`, click **Login with GitHub**, authorize the
-   app. You (and anyone you give write access to the GitHub repo) can now edit content — every
-   save creates a commit that redeploys the site automatically.
+1. **Enable Identity**: your Netlify site → Site configuration → Identity → **Enable Identity**.
+2. **Enable Git Gateway**: Identity → Services → Git Gateway → **Enable Git Gateway**. This is
+   what lets Decap commit to `tonydiaz/TriangleGatorClub` without a separate GitHub OAuth App.
+3. **Turn on Google login**: Identity → Login providers (sometimes under Identity → Settings →
+   External providers) → enable **Google**. Netlify's shared credentials work out of the box —
+   no Google Cloud project needed unless you want a custom-branded consent screen, in which case
+   you'd supply your own Google OAuth Client ID/Secret here instead.
+4. **Set registration to Invite only** (Identity → Settings → Registration): keeps random
+   visitors from signing themselves up as editors.
+5. **Invite your editors**: Identity → Invite users → enter their email (use the same address
+   as their Google account if they'll log in with Google). They'll get an email with a link back
+   to the site, which opens a login modal — the "Login with Google" button is one click from
+   there. The `base.njk` layout already includes the Identity widget script needed for that
+   invite-link flow to work from any page.
+6. Visit `https://trianglegatorclub.netlify.app/admin/`, click **Login with Google** (or
+   whichever provider), and you're in. Every save creates a commit that redeploys the site
+   automatically.
+
+`config.yml`'s `site_url` / `display_url` are already set to `https://trianglegatorclub.netlify.app`.
+
+<details>
+<summary>Alternative: plain GitHub OAuth login instead of Google</summary>
+
+If you'd rather editors log in with their own GitHub account (and have push access to the repo)
+instead of Google/Identity, switch `src/admin/config.yml`'s backend back to:
+
+```yaml
+backend:
+  name: github
+  repo: tonydiaz/TriangleGatorClub
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+```
+
+then create a GitHub OAuth App (callback URL `https://api.netlify.com/auth/done`) and register
+its Client ID/Secret under Netlify → Site configuration → Access & security → OAuth. This mode
+doesn't need Identity or Git Gateway at all, but only works for GitHub accounts with write
+access to the repo — no Google option.
+</details>
 
 ## Notes / things you'll likely want to change
 

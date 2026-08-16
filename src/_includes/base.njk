@@ -18,5 +18,23 @@
   {% include "partials/marquee.njk" %}
   {% include "partials/footer.njk" %}
   <script src="/js/main.js"></script>
+  <!--
+    Netlify Identity widget — required at the site root (not just /admin/) so
+    that invite/confirmation/recovery emails, which link to "/", can open the
+    login modal and then forward the editor into the CMS. See README for the
+    Identity + Git Gateway + Google login setup steps.
+  -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>

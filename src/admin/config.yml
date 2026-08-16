@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  repo: tonydiaz/TriangleGatorClub
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  # No repo/base_url/auth_endpoint needed here — Git Gateway commits through
+  # Netlify's own API using whichever GitHub repo this Netlify site is linked
+  # to, and login goes through Netlify Identity (see README for setup).
 
 # Set this to your deployed site's URL so "Preview" links and local dev work correctly.
 site_url: https://trianglegatorclub.netlify.app

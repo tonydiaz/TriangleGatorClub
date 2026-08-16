@@ -7,6 +7,10 @@
   <link rel="icon" href="data:,">
 </head>
 <body>
+  <!-- Must load before decap-cms.js so the git-gateway backend can detect it and
+       render external login providers (Google, GitHub, etc.) instead of falling
+       back to its bare email/password form. -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script src="https://unpkg.com/decap-cms@^3.1.0/dist/decap-cms.js"></script>
 </body>
 </html>

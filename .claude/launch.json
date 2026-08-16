@@ -6,6 +6,11 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 8080
+    },
+    {
+      "name": "eleventy-attach",
+      "url": "http://localhost:8080",
+      "port": 8080
     }
   ]
 }
