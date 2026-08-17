@@ -1,14 +1,15 @@
 ---
-permalink: false
-title: Food Bank Volunteer Morning
-category: GATOR GOOD
-tab: other
-opponent_line: ""
-event_start: "2026-11-07T09:00"
-location: "Food Bank of Central & Eastern NC"
-calendar_url: "https://calendar.google.com/"
-discuss_url: "https://www.facebook.com/groups/trianglegatorclub"
+title: Florida vs Auburn
+category: WATCH PARTY
+tab: watch_party
+opponent_line: AT AUBURN
+event_start: 2026-09-19T19:00
+location: RallyPoint Sport Grill
+calendar_url: https://calendar.google.com/
+discuss_url: https://www.facebook.com/groups/trianglegatorclub
 sponsor_available: true
-sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Food Bank Volunteer Morning"
+sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Food Bank
+  Volunteer Morning"
+permalink: false
 ---
-Gator Good in action. Two-hour shift sorting and packing at the Food Bank of Central & Eastern NC. Family friendly, ages 8+.
+Join us at RallySports for the Florida watch party. 
