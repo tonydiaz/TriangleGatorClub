@@ -1,14 +1,14 @@
 ---
-permalink: false
-title: "Homecoming Watch Party & Scholarship Raffle"
+title: Florida vs Mizzou
 category: WATCH PARTY
 tab: watch_party
-opponent_line: "VS. GEORGIA"
-event_start: "2026-10-24T16:00"
-location: "Tobacco Road Sports Cafe"
-calendar_url: "https://calendar.google.com/"
-discuss_url: "https://www.facebook.com/groups/trianglegatorclub"
+opponent_line: VS. MISSOURI
+event_start: 2026-10-03T16:00
+location: RallyPoint Sport Grill
+calendar_url: https://calendar.google.com/
+discuss_url: https://www.facebook.com/groups/trianglegatorclub
 sponsor_available: true
 sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Homecoming Watch Party"
+permalink: false
 ---
-Our biggest event of the fall. Raffle proceeds go directly to the Triangle Gator Club scholarship fund for NC students heading to UF.
+Arrive early, this room fills up fast. Orange and blue strongly encouraged.
