@@ -10,22 +10,22 @@
 
   "team_heading": "MEET THE CAPTAINS",
   "team": [
-    { "initials": "MW", "name": "Marcus Whitfield", "role": "President", "degree": "BSBA '09", "email": "hello@trianglegatorclub.com" },
-    { "initials": "DR", "name": "Dana Reyes", "role": "Vice President & Events", "degree": "BA Journalism '13", "email": "hello@trianglegatorclub.com" },
-    { "initials": "KT", "name": "Kevin Tran", "role": "Treasurer", "degree": "MAcc '11", "email": "hello@trianglegatorclub.com" },
-    { "initials": "AB", "name": "Alicia Boone", "role": "Membership & Scholarship", "degree": "BS Education '15", "email": "hello@trianglegatorclub.com" }
+    { "initials": "MW", "name": "Ilegh Kuga", "role": "President", "degree": "BSBA '09", "email": "trianglegatorclub@gmail.com" },
+    { "initials": "DR", "name": "Dana Reyes", "role": "Vice President & Events", "degree": "BA Journalism '13", "email": "trianglegatorclub@gmail.com" },
+    { "initials": "KT", "name": "Kevin Tran", "role": "Treasurer", "degree": "MAcc '11", "email": "trianglegatorclub@gmail.com" },
+    { "initials": "AB", "name": "Alicia Boone", "role": "Membership & Scholarship", "degree": "BS Education '15", "email": "trianglegatorclub@gmail.com" }
   ],
 
   "contact_heading": "GET IN TOUCH",
   "contact_text": "Questions about membership, sponsorship, or want us to reserve space for your group at the next watch party? Email the board — we answer fast.",
-  "contact_email": "hello@trianglegatorclub.com",
+  "contact_email": "trianglegatorclub@gmail.com",
   "contact_facebook_text": "Private Facebook group — request to join",
   "contact_facebook_url": "https://www.facebook.com/groups/trianglegatorclub",
   "contact_instagram_handle": "@trianglegatorclub",
   "contact_instagram_url": "https://instagram.com/trianglegatorclub",
 
   "venue_heading": "OUR HOME BAR",
-  "venue_name_address": "Tobacco Road Sports Cafe · 280 S Mangum St, Durham, NC 27701",
+  "venue_name_address": "RallyPoint Sport Grill · 837 Bass Pro Ln, Cary, NC 27513",
   "venue_button_text": "Open in Google Maps",
-  "venue_map_url": "https://maps.google.com/?q=Tobacco+Road+Sports+Cafe+280+S+Mangum+St+Durham+NC+27701"
+  "venue_map_url": "https://maps.google.com/?q=RallyPoint+Sport+Grill+837+Bass+Pro+Ln,+Cary,+NC+27513"
 }
