@@ -1,5 +1,5 @@
 ---
-title: Gator Football
+title: Florida vs Campbell
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS CAMPBELL
