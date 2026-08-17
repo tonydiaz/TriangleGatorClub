@@ -9,21 +9,21 @@
       "price": "$500",
       "features": ["Logo on event signage", "Shout-out on the club socials", "Two reserved seats at the watch party"],
       "button_text": "Choose Quarterback",
-      "button_url": "mailto:hello@trianglegatorclub.com?subject=Quarterback Sponsorship"
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Quarterback Sponsorship"
     },
     {
       "name": "CAPTAIN",
       "price": "$250",
       "features": ["Mention on event signage", "One social post", "Reserved table for four"],
       "button_text": "Choose Captain",
-      "button_url": "mailto:hello@trianglegatorclub.com?subject=Captain Sponsorship"
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Captain Sponsorship"
     },
     {
       "name": "GATOR",
       "price": "$100",
       "features": ["Name on the sponsor board", "Thank-you in the group", "A round on the club"],
       "button_text": "Choose Gator",
-      "button_url": "mailto:hello@trianglegatorclub.com?subject=Gator Sponsorship"
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Gator Sponsorship"
     }
   ],
 
@@ -34,5 +34,5 @@
 
   "custom_text": "Want a custom package or a season-long partnership?",
   "custom_button_text": "Email the board to build a custom sponsorship",
-  "custom_button_url": "mailto:hello@trianglegatorclub.com?subject=Custom Sponsorship Package"
+  "custom_button_url": "mailto:trianglegatorclub@gmail.com?subject=Custom Sponsorship Package"
 }
