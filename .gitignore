@@ -4,3 +4,5 @@ _site/
 .DS_Store
 npm-debug.log*
 .env
+
+.claude
