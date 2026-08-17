@@ -2,7 +2,7 @@
 title: Gator Football
 category: WATCH PARTY
 tab: watch_party
-opponent_line: AT CAMPBELL
+opponent_line: VS CAMPBELL
 event_start: 2026-09-12T17:30
 location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
