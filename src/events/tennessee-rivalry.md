@@ -1,5 +1,5 @@
 ---
-title: Gators at Tennessee — Rivalry Watch Party
+title: Gator Football
 category: WATCH PARTY
 tab: watch_party
 opponent_line: AT CAMPBELL
@@ -12,4 +12,4 @@ sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Tennessee
   Rivalry Watch Party"
 permalink: false
 ---
-The one we circle every year. Arrive early, this room fills up fast. Orange and blue strongly encouraged.
+Arrive early, this room fills up fast. Orange and blue strongly encouraged.
