@@ -1,5 +1,5 @@
 ---
-title: Gator Football - Season Opener Watch Party
+title: Florida vs FL Atlantic - Season Opener Watch Party
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. FL ATLANTIC
