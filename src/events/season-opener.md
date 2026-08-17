@@ -4,7 +4,7 @@ category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. FL ATLANTIC
 event_start: 2026-09-05T19:45
-location: Trophy Brewing – Maywood
+location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/groups/trianglegatorclub
 sponsor_available: true
