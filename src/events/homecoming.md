@@ -4,8 +4,7 @@ title: "Homecoming Watch Party & Scholarship Raffle"
 category: WATCH PARTY
 tab: watch_party
 opponent_line: "VS. GEORGIA"
-date_iso: "2026-10-24"
-time_label: "Saturday, 4:00 PM"
+event_start: "2026-10-24T16:00"
 location: "Tobacco Road Sports Cafe"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"

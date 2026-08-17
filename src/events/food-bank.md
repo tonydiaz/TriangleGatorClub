@@ -4,8 +4,7 @@ title: Food Bank Volunteer Morning
 category: GATOR GOOD
 tab: other
 opponent_line: ""
-date_iso: "2026-11-07"
-time_label: "Saturday, 9:00 AM"
+event_start: "2026-11-07T09:00"
 location: "Food Bank of Central & Eastern NC"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"

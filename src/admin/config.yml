@@ -208,8 +208,13 @@ collections:
         widget: select
         options: [{ label: "Watch Parties", value: "watch_party" }, { label: "Other Events", value: "other" }]
       - { label: "Opponent / Sub-label (e.g. VS. GEORGIA)", name: opponent_line, widget: string, required: false }
-      - { label: "Date", name: date_iso, widget: date, format: "YYYY-MM-DD" }
-      - { label: "Time / Day Label (e.g. Saturday, 3:00 PM)", name: time_label, widget: string }
+      - label: "Date & Time"
+        name: event_start
+        widget: datetime
+        format: "YYYY-MM-DD[T]HH:mm" # stored value — no timezone offset, treated as plain wall-clock time
+        date_format: "MMM D, YYYY"   # display only, in the editor's date picker
+        time_format: "h:mm A"        # display only, in the editor's time picker
+        picker_utc: false
       - { label: "Location", name: location, widget: string }
       - { label: "'Add to Calendar' URL", name: calendar_url, widget: string }
       - { label: "'Discuss in the Group' URL", name: discuss_url, widget: string }

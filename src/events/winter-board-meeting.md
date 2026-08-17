@@ -4,8 +4,7 @@ title: Winter Board Meeting
 category: CLUB MEETING
 tab: other
 opponent_line: ""
-date_iso: "2026-12-03"
-time_label: "Thursday, 7:00 PM"
+event_start: "2026-12-03T19:00"
 location: "Chapel Hill Public Library"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"

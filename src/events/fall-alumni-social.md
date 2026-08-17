@@ -4,8 +4,7 @@ title: Fall Alumni Social
 category: SOCIAL
 tab: other
 opponent_line: ""
-date_iso: "2026-10-08"
-time_label: "Thursday, 6:30 PM"
+event_start: "2026-10-08T18:30"
 location: "Raleigh Beer Garden"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"

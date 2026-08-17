@@ -4,8 +4,7 @@ title: Season Opener Watch Party
 category: WATCH PARTY
 tab: watch_party
 opponent_line: "VS. SAMFORD"
-date_iso: "2026-08-29"
-time_label: "Saturday, 3:00 PM"
+event_start: "2026-08-29T15:00"
 location: "Trophy Brewing – Maywood"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"

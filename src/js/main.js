@@ -31,10 +31,11 @@
   });
   if (items.length) applyFilter("all");
 
-  // Countdown to next event
+  // Countdown to next event (data-countdown is a full "YYYY-MM-DDTHH:mm:ss",
+  // parsed here as local time — i.e. the event's wall-clock start time).
   var countdownEl = document.querySelector("[data-countdown]");
   if (countdownEl) {
-    var target = new Date(countdownEl.getAttribute("data-countdown") + "T00:00:00");
+    var target = new Date(countdownEl.getAttribute("data-countdown"));
     function tick() {
       var now = new Date();
       var diff = target - now;

@@ -4,8 +4,8 @@
   <span class="timeline-dot"></span>
   <article class="timeline-card">
     <div class="timeline-card__date">
-      <span class="timeline-card__month">{{ event.data.date_iso | monthShort }}</span>
-      <span class="timeline-card__day">{{ event.data.date_iso | dayNum }}</span>
+      <span class="timeline-card__month">{{ event.data.event_start | monthShort }}</span>
+      <span class="timeline-card__day">{{ event.data.event_start | dayNum }}</span>
     </div>
     <div class="timeline-card__body">
       <div class="timeline-card__tags">
@@ -15,7 +15,7 @@
       <h3>{{ event.data.title }}</h3>
       <div class="timeline-card__desc">{{ event.templateContent | safe }}</div>
       <div class="timeline-card__meta">
-        <span>{{ clockIcon() }}{{ event.data.time_label }}</span>
+        <span>{{ clockIcon() }}{{ event.data.event_start | dayTimeLabel }}</span>
         <span>{{ pinIcon() }}{{ event.data.location }}</span>
       </div>
       <div class="timeline-card__actions">

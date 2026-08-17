@@ -4,8 +4,7 @@ title: "Gators at Tennessee — Rivalry Watch Party"
 category: WATCH PARTY
 tab: watch_party
 opponent_line: "AT TENNESSEE"
-date_iso: "2026-09-19"
-time_label: "Saturday, 11:30 AM"
+event_start: "2026-09-19T11:30"
 location: "Bull McCabe's Irish Pub"
 calendar_url: "https://calendar.google.com/"
 discuss_url: "https://www.facebook.com/groups/trianglegatorclub"
