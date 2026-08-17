@@ -8,8 +8,7 @@ location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/groups/trianglegatorclub
 sponsor_available: true
-sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Food Bank
-  Volunteer Morning"
+sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 permalink: false
 ---
 Join us at RallySports for the Florida watch party. 

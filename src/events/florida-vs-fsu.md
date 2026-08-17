@@ -1,9 +1,9 @@
 ---
-title: Florida vs Vanderbilt
+title: Florida vs Florida State
 category: WATCH PARTY
 tab: watch_party
-opponent_line: VS. VANDERBILT
-event_start: 2026-11-21T18:00
+opponent_line: VS. FSU
+event_start: 2026-11-27T18:00
 location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/groups/trianglegatorclub

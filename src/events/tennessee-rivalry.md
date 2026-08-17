@@ -8,8 +8,7 @@ location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/groups/trianglegatorclub
 sponsor_available: true
-sponsor_url: "mailto:hello@trianglegatorclub.com?subject=Sponsor: Tennessee
-  Rivalry Watch Party"
+sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 permalink: false
 ---
 Arrive early, this room fills up fast. Orange and blue strongly encouraged.

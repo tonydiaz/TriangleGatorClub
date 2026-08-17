@@ -1,9 +1,9 @@
 ---
-title: Florida vs South Carolina
+title: Florida vs Georgia
 category: WATCH PARTY
 tab: watch_party
-opponent_line: VS. SOUTH CAROLINA
-event_start: 2026-10-10T18:00
+opponent_line: VS. GEORGIA
+event_start: 2026-10-31T18:00
 location: RallyPoint Sport Grill
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/groups/trianglegatorclub
