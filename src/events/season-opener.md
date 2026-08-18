@@ -13,7 +13,7 @@ permalink: false
 ---
 Kick off football season here in NC with the Triangle Gator Club!
 
-Triangle Gator Club will be hosting a Gator watch party this Saturday (10/4) at the Rally Point - come watch the Gators take on Texas at 3:30 pm!  
+Triangle Gator Club will be hosting a Gator watch party Saturday (9/5) at the RallyPoint - come watch the Gators take on FAU at 7:45 pm!  **First ten attendees get a special club prize**
 
 Bring your friends and family, wear your orange and blue, and come enjoy:
 
@@ -21,7 +21,7 @@ Bring your friends and family, wear your orange and blue, and come enjoy:
 ~Halftime giveaways on Gator apparel, sporting items, and more!
 ~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
 ~Tasty food & drinks with specials only for TGC
-G~ator cheers and chants that make you feel like you’re right at home in the Swamp! 
+~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
  
 We’re excited to let you know that the outdoor patio will be open for dining (weather permitting), and you’re welcome to bring your furry friends to enjoy the fresh air and watch with us — just on the patio, please! 
 
