@@ -20,7 +20,6 @@
       </div>
       <div class="timeline-card__actions">
         <a class="pill-btn pill-btn--solid" href="{{ event.data.calendar_url }}">{{ calendarIcon() }}Add to Calendar</a>
-        <a class="pill-btn pill-btn--outline" href="{{ event.data.discuss_url }}">{{ commentIcon() }}Discuss in the Group</a>
         {% if event.data.sponsor_available %}
         <a class="pill-btn pill-btn--outline-orange" href="{{ event.data.sponsor_url }}">{{ giftIcon() }}{{ button_text }}</a>
         {% endif %}

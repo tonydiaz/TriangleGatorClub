@@ -217,7 +217,6 @@ collections:
         picker_utc: false
       - { label: "Location", name: location, widget: string }
       - { label: "'Add to Calendar' URL", name: calendar_url, widget: string }
-      - { label: "'Discuss in the Group' URL", name: discuss_url, widget: string }
       - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
       - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string }
       - { label: "Hide from listings (keep page from being built)", name: permalink, widget: hidden, default: false }
