@@ -1,6 +1,6 @@
 {
   "events_tab_other": "Other Events",
-  "hero_button_secondary_text": "Join the Den",
+  "hero_button_secondary_text": "Donate Now",
   "who_heading": "ORANGE & BLUE, NINE HOURS NORTH.",
   "events_eyebrow": "THE GAME PLAN",
   "hero_eyebrow": "RALEIGH · DURHAM · SURROUNDING AREAS, NC",
@@ -10,8 +10,7 @@
   "hero_subtext": "The official gathering place for Florida Gators alumni and fans across Raleigh, Durham and the surrounding areas. Watch parties every game day, service in the community, and a whole lot of orange and blue.",
   "who_eyebrow": "WHO WE ARE",
   "den_button_text": "Join the Den on Facebook",
-  "hero_image_1": "/images/uploads/clubbie.jpg",
-  "hero_image_2": "/images/uploads/hero-2.svg",
+  "hero_image_1": "/images/uploads/club-logo.png",
   "hero_button_primary_url": "/#events",
   "hero_heading_bottom": "TRIANGLE.",
   "who_text": "Welcome all Gators to the Triangle Gator Club® of the Greater Raleigh area. The TGC hosts members from all over the Triangle area in cities and towns such as: Raleigh, Durham, Chapel Hill, Cary, Apex, Holly Springs, Garner, and others.\n\nWe are an official affiliate of the University of Florida Alumni Association. Our alumni club is devoted to strengthening the Gator Nation. The mission of the TGC is to foster and enhance the relationship between the University of Florida, its alumni, students and friends, in the Greater Raleigh area and to support the university's mission of teaching, researching and service.",
@@ -25,7 +24,7 @@
   "den_button_url": "https://www.facebook.com/groups/trianglegatorclub",
   "hero_heading_rest": "TO THE",
   "events_heading": "UPCOMING EVENTS",
-  "hero_button_secondary_url": "https://www.facebook.com/groups/trianglegatorclub",
+  "hero_button_secondary_url": "/scholarship/",
   "stats": [
     {
       "number": "600+",
