@@ -1,6 +1,6 @@
 {% from "partials/icons.njk" import calendarIcon, clockIcon, pinIcon, commentIcon, giftIcon %}
 {# Expects: event (a collection item), button_text #}
-<div class="timeline-item" data-tab="{{ event.data.tab }}">
+<div class="timeline-item" id="event-{{ event.fileSlug }}" data-tab="{{ event.data.tab }}">
   <span class="timeline-dot"></span>
   <article class="timeline-card">
     <div class="timeline-card__date">

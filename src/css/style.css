@@ -204,6 +204,14 @@ ul { list-style: none; margin: 0; padding: 0; }
   border-radius: var(--radius);
   max-width: 260px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  display: block;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.next-event-badge:hover,
+.next-event-badge:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 48px rgba(0,0,0,0.4);
 }
 .next-event-badge__label {
   font-family: var(--font-head);
@@ -315,6 +323,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   padding-left: 44px;
   padding-bottom: 40px;
   border-left: 1px solid rgba(0,33,165,0.15);
+  scroll-margin-top: 100px;
 }
 .timeline-item:last-child,
 .timeline-item.is-last-visible { border-left-color: transparent; padding-bottom: 0; }
