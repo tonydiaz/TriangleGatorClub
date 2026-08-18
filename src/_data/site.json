@@ -33,10 +33,6 @@
       "url": "/#events"
     },
     {
-      "label": "The Den",
-      "url": "/#den"
-    },
-    {
       "label": "Scholarship",
       "url": "/scholarship/"
     },
@@ -47,6 +43,10 @@
     {
       "label": "About & Contact",
       "url": "/about/"
+    },
+    {
+      "label": "Enter the Swamp",
+      "url": "/#den"
     }
   ],
   "nav_button_text": "Donate now",
