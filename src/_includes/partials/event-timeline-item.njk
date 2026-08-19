@@ -1,4 +1,4 @@
-{% from "partials/icons.njk" import calendarIcon, clockIcon, pinIcon, commentIcon, giftIcon %}
+{% from "partials/icons.njk" import calendarIcon, clockIcon, pinIcon, commentIcon, giftIcon, contactIcon %}
 {# Expects: event (a collection item), button_text #}
 <div class="timeline-item" id="event-{{ event.fileSlug }}" data-tab="{{ event.data.tab }}">
   <span class="timeline-dot"></span>
@@ -17,6 +17,7 @@
       <div class="timeline-card__meta">
         <span>{{ clockIcon() }}{{ event.data.event_start | dayTimeLabel }}</span>
         <span>{{ pinIcon() }}{{ event.data.location }}</span>
+        {% if event.data.contact %}<span>{{ contactIcon() }}{{ event.data.contact }}</span>{% endif %}
       </div>
       <div class="timeline-card__actions">
         {% if event.data.calendar_url %}
