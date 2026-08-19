@@ -63,7 +63,8 @@ collections:
           - { label: "Hero Primary Button URL", name: hero_button_primary_url, widget: string }
           - { label: "Hero Secondary Button Text", name: hero_button_secondary_text, widget: string }
           - { label: "Hero Secondary Button URL", name: hero_button_secondary_url, widget: string }
-          - { label: "Hero Logo", name: hero_image_1, widget: image }
+          - { label: "Hero Image 1", name: hero_image_1, widget: image }
+          - { label: "Hero Image 2", name: hero_image_2, widget: image }
           - { label: "'Next Event' Badge Label", name: next_event_badge_label, widget: string }
 
           - { label: "Who We Are — Eyebrow", name: who_eyebrow, widget: string }
@@ -197,7 +198,7 @@ collections:
     identifier_field: title
     fields:
       - { label: "Event Title", name: title, widget: string }
-      - { label: "Description", name: body, widget: markdown }
+      - { label: "Description", name: body, widget: text }
       - label: "Category Badge"
         name: category
         widget: select
@@ -215,7 +216,7 @@ collections:
         time_format: "h:mm A"        # display only, in the editor's time picker
         picker_utc: false
       - { label: "Location", name: location, widget: string }
-      - { label: "'Add to Calendar' URL", name: calendar_url, widget: string }
+      - { label: "'Add to Calendar' URL", name: calendar_url, widget: string, required: false }
       - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
-      - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string }
+      - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string, required: false }
       - { label: "Hide from listings (keep page from being built)", name: permalink, widget: hidden, default: false }

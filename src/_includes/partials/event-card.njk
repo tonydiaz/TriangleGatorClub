@@ -14,10 +14,10 @@
     <p class="event-card__meta">{{ event.data.event_start | dayTimeLabel }}<br>{{ event.data.location }}</p>
     <div class="event-card__actions">
       {% if mode == "sponsor" %}
-        <a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>
+        {% if event.data.sponsor_url %}<a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>{% endif %}
       {% else %}
-        <a class="link-arrow" href="{{ event.data.calendar_url }}">Add to Calendar</a>
-        {% if event.data.sponsor_available %}
+        {% if event.data.calendar_url %}<a class="link-arrow" href="{{ event.data.calendar_url }}">Add to Calendar</a>{% endif %}
+        {% if event.data.sponsor_available and event.data.sponsor_url %}
         <a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>
         {% endif %}
       {% endif %}
