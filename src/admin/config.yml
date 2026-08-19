@@ -197,7 +197,7 @@ collections:
     identifier_field: title
     fields:
       - { label: "Event Title", name: title, widget: string }
-      - { label: "Description", name: body, widget: text }
+      - { label: "Description", name: body, widget: markdown }
       - label: "Category Badge"
         name: category
         widget: select

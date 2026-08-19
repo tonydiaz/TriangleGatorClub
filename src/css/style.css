@@ -282,9 +282,17 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .tag--muted { background: rgba(255,255,255,0.12); color: #cfd4ea; }
 .event-card h3 { font-family: var(--font-head); margin: 0 0 8px; font-size: 1.15rem; }
-.event-card p { color: #cfd4ea; margin: 0 0 10px; font-size: 0.92rem; }
+.event-card p { color: #cfd4ea; margin: 0 0 10px; font-size: 0.92rem; overflow-wrap: anywhere; }
 .event-card__meta { color: #9aa2c0 !important; font-size: 0.85rem !important; }
 .event-card__actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
+.event-card__desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+}
+.event-card__desc.is-expanded { display: block; overflow: visible; }
+.event-card .desc-toggle { color: var(--orange); }
 
 /* ===== Home-page events: segmented tabs + vertical timeline ===== */
 .section--events { background: var(--gray-100); }
@@ -373,10 +381,33 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .tag-text--muted { color: rgba(0,33,165,0.5); }
 .timeline-card h3 { font-family: var(--font-head); font-size: 1.25rem; margin: 0 0 8px; color: var(--ink); }
-.timeline-card__desc p { color: var(--gray-600); margin: 0 0 14px; }
+.timeline-card__desc p { color: var(--gray-600); margin: 0 0 14px; overflow-wrap: anywhere; }
+.timeline-card__desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+}
+.timeline-card__desc.is-expanded { display: block; overflow: visible; }
 .timeline-card__meta { display: flex; gap: 24px; flex-wrap: wrap; color: var(--gray-600); font-size: 0.88rem; margin-bottom: 18px; }
 .timeline-card__meta span { display: inline-flex; align-items: center; gap: 6px; }
 .timeline-card__actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.desc-toggle {
+  display: none;
+  margin: -4px 0 14px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--blue);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.desc-toggle.is-visible { display: inline-block; }
 
 .pill-btn {
   display: inline-flex;

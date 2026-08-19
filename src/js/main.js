@@ -53,4 +53,21 @@
     tick();
     setInterval(tick, 1000);
   }
+
+  // Expand/collapse long event descriptions. CSS clamps every description to
+  // 8 lines by default; here we detect which ones actually got clipped and
+  // give those a "Read more" toggle (short descriptions get no button at all).
+  var descs = document.querySelectorAll(".timeline-card__desc, .event-card__desc");
+  descs.forEach(function (desc) {
+    if (desc.scrollHeight <= desc.clientHeight + 1) return;
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "desc-toggle is-visible";
+    btn.textContent = "Read more";
+    btn.addEventListener("click", function () {
+      var expanded = desc.classList.toggle("is-expanded");
+      btn.textContent = expanded ? "Show less" : "Read more";
+    });
+    desc.insertAdjacentElement("afterend", btn);
+  });
 })();
