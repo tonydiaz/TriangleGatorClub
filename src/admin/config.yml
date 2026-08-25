@@ -145,16 +145,6 @@ collections:
           - { label: "Eligibility Text", name: eligibility_text, widget: string }
           - { label: "Selection Text", name: selection_text, widget: string }
 
-          - { label: "History — Eyebrow", name: history_eyebrow, widget: string }
-          - { label: "History — Heading", name: history_heading, widget: string }
-          - label: "History Timeline"
-            name: history_items
-            widget: list
-            fields:
-              - { label: Year, name: year, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: text }
-
           - { label: "Closing CTA — Heading", name: cta_heading, widget: string }
           - { label: "Closing CTA — Text", name: cta_text, widget: text }
           - { label: "Closing CTA — Button Text", name: cta_button_text, widget: string }

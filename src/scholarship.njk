@@ -23,21 +23,6 @@ title: Scholarship
   </div>
 </section>
 
-<section class="section section--dark">
-  <div class="wrap">
-    <p class="eyebrow eyebrow--light">{{ scholarship.history_eyebrow }}</p>
-    <h2 class="display display--md light">{{ scholarship.history_heading }}</h2>
-    <div class="history-timeline">
-      {% for item in scholarship.history_items %}
-      <div class="history-timeline__item">
-        <p class="history-timeline__year">{{ item.year }}</p>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
 <section class="section section--cta">
   <div class="wrap center">
