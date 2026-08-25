@@ -1,26 +1,19 @@
 {
+  "selection_text": "Each year, the Triangle Gator Club® awards merit and need-based scholarships to exceptional Triangle-area high school graduates heading to Gainesville, directly supporting their academic pursuits and representing the best of North Carolina at UF.",
   "hero_eyebrow": "GATOR GOOD",
-  "hero_heading": "THE TRIANGLE GATOR SCHOLARSHIP",
-  "hero_subtext": "Every dollar we raise beyond running the club goes to a scholarship that helps a Triangle-area student afford life at the University of Florida. It's the single biggest thing we do.",
-  "hero_button_text": "Donate on Givebutter",
-  "hero_button_url": "https://givebutter.com/",
-
   "covers_eyebrow": "WHAT IT COVERS",
-  "covers_heading": "$2,500 TOWARD FIRST-YEAR COSTS",
-  "covers_text": "Each year the club awards a scholarship to a graduating high-school senior from Raleigh, Durham and the surrounding areas who is enrolling at the University of Florida. The award is paid directly to the student and can be put toward tuition, housing, books or the move to Gainesville.",
-  "eligibility_text": "Eligibility: Triangle-area senior accepted to UF for the fall term.",
-  "selection_text": "Selection: Board reviews applications, short essays and a short interview.",
-
-  "history_eyebrow": "HOW IT GREW",
+  "hero_button_url": "https://givebutter.com/trianglegatorclubendowment",
+  "hero_subtext": "Every dollar we raise beyond running the club goes to a scholarship that helps a Triangle-area student afford life at the University of Florida. It's the single biggest thing we do.",
+  "cta_button_text": "Click to Contribute",
+  "covers_text": "We are proud to announce the launch of the Triangle Gator Club® Endowment, a lasting commitment to supporting the next generation of Gator leaders from central North Carolina. Designed to open doors for outstanding local high school graduates attending the University of Florida, this endowment provides vital financial assistance to help ease the burden of out-of-state tuition.",
+  "cta_button_url": "https://givebutter.com/trianglegatorclubendowment",
+  "cta_heading": "Why Contribute?",
+  "history_items": [],
+  "hero_button_text": "Donate on Givebutter",
   "history_heading": "A DECADE OF SENDING GATORS SOUTH",
-  "history_items": [
-    { "year": "2014", "title": "First scholarship awarded", "description": "A single $500 book stipend to a Wake County senior heading to Gainesville." },
-    { "year": "2019", "title": "Endowed at $10,000 / year", "description": "Board voted to guarantee a minimum annual award regardless of fundraising." },
-    { "year": "2024", "title": "Three awards, one state", "description": "Scholarships now support students from Raleigh, Durham and the surrounding areas." }
-  ],
-
-  "cta_heading": "HELP SEND THE NEXT GATOR SOUTH",
-  "cta_text": "Donations are processed securely through Givebutter. You can give once or set up a monthly gift — every bit of it goes to the scholarship fund.",
-  "cta_button_text": "Donate on Givebutter",
-  "cta_button_url": "https://givebutter.com/trianglegatorclubendowment"
+  "cta_text": "Your generosity directly impacts local students, ensuring bright young minds have the resources they need to thrive at UF. By contributing to the endowment, you invest in future leaders and strengthen the Gator Nation right here at home.\n\nThe Triangle Gator Club® is a registered 501(c)(3) organization, and all contributions are tax-deductible.",
+  "hero_heading": "THE TRIANGLE GATOR CLUB SCHOLARSHIP",
+  "history_eyebrow": "HOW IT GREW",
+  "covers_heading": "Our Legacy",
+  "eligibility_text": "To build a sustainable future for our community, we have set an ambitious goal: $10,000 raised by 2030. By securing this foundation, we ensure continuous funding for deserving students while helping sustain our local operations, allowing us to serve, connect, and engage Triangle Gators for years to come."
 }
