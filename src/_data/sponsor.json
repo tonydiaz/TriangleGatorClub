@@ -1,38 +1,47 @@
 {
+  "open_games_text": "These upcoming events are still available. Pick one, email the board, and we'll lock it in and add your name.",
   "hero_eyebrow": "GET IN FRONT OF GATOR NATION",
-  "hero_heading": "SPONSOR A GAME",
-  "hero_subtext": "Hundreds of Triangle Gators gather at every watch party. Sponsor a game and put your business in front of a loyal, local, high-energy crowd — while helping fund the club and our scholarship.",
-
+  "hero_subtext": "TONS of Triangle Gators gather at every watch party. Sponsor a game and put your business in front of a loyal, local, high-energy crowd — while helping fund the club and our scholarship.",
+  "custom_button_text": "Email the board to build a custom sponsorship",
+  "open_games_heading": "GAMES LOOKING FOR A SPONSOR",
+  "custom_button_url": "mailto:trianglegatorclub@gmail.com?subject=Custom Sponsorship Package",
   "tiers": [
     {
       "name": "QUARTERBACK",
       "price": "$500",
-      "features": ["Logo on event signage", "Shout-out on the club socials", "Two reserved seats at the watch party"],
+      "features": [
+        "Logo on event signage",
+        "Shout-out on the club socials",
+        "Two reserved seats at the watch party"
+      ],
       "button_text": "Choose Quarterback",
       "button_url": "mailto:trianglegatorclub@gmail.com?subject=Quarterback Sponsorship"
     },
     {
       "name": "CAPTAIN",
       "price": "$250",
-      "features": ["Mention on event signage", "One social post", "Reserved table for four"],
+      "features": [
+        "Mention on event signage",
+        "One social post",
+        "Reserved table for four"
+      ],
       "button_text": "Choose Captain",
       "button_url": "mailto:trianglegatorclub@gmail.com?subject=Captain Sponsorship"
     },
     {
       "name": "GATOR",
       "price": "$100",
-      "features": ["Name on the sponsor board", "Thank-you in the group", "A round on the club"],
+      "features": [
+        "Name on the sponsor board",
+        "Thank-you in the group",
+        "A round on the club"
+      ],
       "button_text": "Choose Gator",
       "button_url": "mailto:trianglegatorclub@gmail.com?subject=Gator Sponsorship"
     }
   ],
-
-  "open_games_eyebrow": "OPEN GAMES",
-  "open_games_heading": "GAMES LOOKING FOR A SPONSOR",
-  "open_games_text": "These upcoming events are still available. Pick one, email the board, and we'll lock it in and add your name.",
   "sponsor_button_text": "Sponsor this game",
-
+  "open_games_eyebrow": "OPEN GAMES",
   "custom_text": "Want a custom package or a season-long partnership?",
-  "custom_button_text": "Email the board to build a custom sponsorship",
-  "custom_button_url": "mailto:trianglegatorclub@gmail.com?subject=Custom Sponsorship Package"
+  "hero_heading": "SPONSOR A GAME"
 }
