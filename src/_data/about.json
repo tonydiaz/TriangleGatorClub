@@ -1,31 +1,65 @@
 {
+  "team_heading": "MEET YOUR TGC BOARD",
+  "contact_heading": "GET IN TOUCH",
+  "contact_instagram_url": "https://instagram.com/trianglegatorclub",
   "hero_eyebrow": "TRIANGLE LEGACY",
-  "hero_heading": "ABOUT THE CLUB",
+  "contact_facebook_text": "Facebook — Click to Follow",
   "hero_subtext": "Founded by a handful of alumni who were tired of watching games alone, the Triangle Gator Club is now the home for Gator Nation in central North Carolina.",
-
-  "story_heading": "OUR STORY",
+  "venue_button_text": "Open in Google Maps",
+  "contact_text": "Questions about membership, sponsorship, or scholarships? Email us, find a board member at a club event or message us on social media!",
+  "venue_name_address": "RallyPoint Sport Grill · 837 Bass Pro Ln, Cary, NC 27513",
+  "venue_heading": "OUR HOST BAR",
+  "contact_instagram_handle": "@trianglegatorclub",
+  "contact_facebook_url": "https://www.facebook.com/trianglegatorclub",
   "story_paragraph_1": "It started with six people, one projector and a borrowed back room in downtown Raleigh. Word spread the way it always does in Gator Nation — a chomp across a parking lot, a sticker on a laptop at a coffee shop in Durham — and the room kept getting bigger.",
   "story_paragraph_2": "Today we host watch parties for every football game, gather for basketball and baseball runs, run service days with local nonprofits, and raise money each year for a scholarship that helps North Carolina students head down to Gainesville.",
+  "story_heading": "OUR STORY",
   "story_paragraph_3": "Membership is simple: show up. Dues help cover reserved space, game-day food and the scholarship fund, but you never need to pay a dollar to come watch a game with us.",
-
-  "team_heading": "MEET THE CAPTAINS",
+  "venue_map_url": "https://maps.google.com/?q=RallyPoint+Sport+Grill+837+Bass+Pro+Ln,+Cary,+NC+27513",
   "team": [
-    { "initials": "MW", "name": "Ilegh Kuga", "role": "President", "degree": "BSBA '09", "email": "trianglegatorclub@gmail.com" },
-    { "initials": "DR", "name": "Dana Reyes", "role": "Vice President & Events", "degree": "BA Journalism '13", "email": "trianglegatorclub@gmail.com" },
-    { "initials": "KT", "name": "Kevin Tran", "role": "Treasurer", "degree": "MAcc '11", "email": "trianglegatorclub@gmail.com" },
-    { "initials": "AB", "name": "Alicia Boone", "role": "Membership & Scholarship", "degree": "BS Education '15", "email": "trianglegatorclub@gmail.com" }
+    {
+      "initials": " ",
+      "name": "Ileigh Kuga",
+      "role": "President",
+      "degree": "BA '18",
+      "email": " "
+    },
+    {
+      "initials": " ",
+      "name": "Craig Brodsky",
+      "role": "President Emeritus ",
+      "degree": "BA '91",
+      "email": " "
+    },
+    {
+      "initials": " ",
+      "name": "Ken Dubin",
+      "role": "Treasurer",
+      "degree": "BS '78",
+      "email": " "
+    },
+    {
+      "initials": " ",
+      "name": "Gary Lannan",
+      "role": "Historian",
+      "degree": "BSBA ",
+      "email": " "
+    },
+    {
+      "name": "Rob Trickel",
+      "role": "Board Member",
+      "degree": "BA '81",
+      "email": " ",
+      "initials": " "
+    },
+    {
+      "initials": " ",
+      "name": "David Gaussiran",
+      "degree": "BSE '95",
+      "role": "Board Member",
+      "email": " "
+    }
   ],
-
-  "contact_heading": "GET IN TOUCH",
-  "contact_text": "Questions about membership, sponsorship, or want us to reserve space for your group at the next watch party? Email the board — we answer fast.",
   "contact_email": "trianglegatorclub@gmail.com",
-  "contact_facebook_text": "Private Facebook group — request to join",
-  "contact_facebook_url": "https://www.facebook.com/trianglegatorclub",
-  "contact_instagram_handle": "@trianglegatorclub",
-  "contact_instagram_url": "https://instagram.com/trianglegatorclub",
-
-  "venue_heading": "OUR HOME BAR",
-  "venue_name_address": "RallyPoint Sport Grill · 837 Bass Pro Ln, Cary, NC 27513",
-  "venue_button_text": "Open in Google Maps",
-  "venue_map_url": "https://maps.google.com/?q=RallyPoint+Sport+Grill+837+Bass+Pro+Ln,+Cary,+NC+27513"
+  "hero_heading": "ABOUT THE CLUB"
 }
