@@ -5,7 +5,7 @@
   "brand_prefix": "TRIANGLE",
   "marquee_text": "FROM THE SWAMP TO THE PINES - YOUR HOME FOR ALL THINGS UF IN CENTRAL NC",
   "footer_tagline": "Raleigh · Durham · Surrounding Areas, NC",
-  "footer_venue": "RallyPoint Sport Grill",
+  "footer_venue": "Host Bar: RallyPoint Sport Grill",
   "footer_links": [
     {
       "label": "About & Contact",
@@ -33,16 +33,16 @@
       "url": "/#events"
     },
     {
+      "label": "About & Contact",
+      "url": "/about/"
+    },
+    {
       "label": "Scholarship",
       "url": "/scholarship/"
     },
     {
       "label": "Sponsor",
       "url": "/sponsor/"
-    },
-    {
-      "label": "About & Contact",
-      "url": "/about/"
     },
     {
       "label": "Club Merch",
