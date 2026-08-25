@@ -6,7 +6,7 @@ opponent_line: ""
 event_start: 2026-08-22T20:00
 location: The Avenue - 3 Glenwood Ave
 calendar_url: https://calendar.google.com/
-discuss_url: https://www.facebook.com/groups/trianglegatorclub
+discuss_url: https://www.facebook.com/trianglegatorclub
 sponsor_available: false
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Summer social"
 permalink: false

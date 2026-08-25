@@ -42,6 +42,26 @@ function formatTime12h(h, mi) {
   return `${hour12}:${String(mi).padStart(2, "0")} ${period}`;
 }
 
+// "Now" as wall-clock digits in the club's own timezone (US Eastern — every
+// event_start is typed as a local Eastern kickoff/start time with no offset).
+// Using Intl here, rather than the server's own local time, keeps the
+// comparison correct no matter what timezone the build machine runs in.
+function nowSortableStringEastern() {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date());
+  const get = (type) => parts.find((p) => p.type === type).value;
+  // Midnight can format as "24" under hour12:false — normalize to "00".
+  const hour = get("hour") === "24" ? "00" : get("hour");
+  return `${get("year")}-${get("month")}-${get("day")}T${hour}:${get("minute")}`;
+}
+
 module.exports = function (eleventyConfig) {
   // Static passthroughs
   eleventyConfig.addPassthroughCopy("src/css");
@@ -51,9 +71,16 @@ module.exports = function (eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection("events", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("src/events/*.md").sort((a, b) => {
-      return toSortableString(a.data.event_start).localeCompare(toSortableString(b.data.event_start));
-    });
+    // Auto-hide events once their start time has passed, so the homepage
+    // timeline, next-event badge, and sponsor page only ever show what's
+    // still upcoming.
+    const now = nowSortableStringEastern();
+    return collectionApi
+      .getFilteredByGlob("src/events/*.md")
+      .filter((event) => toSortableString(event.data.event_start) >= now)
+      .sort((a, b) => {
+        return toSortableString(a.data.event_start).localeCompare(toSortableString(b.data.event_start));
+      });
   });
 
   // Filters — all tolerant of event_start being a String or a Date.
