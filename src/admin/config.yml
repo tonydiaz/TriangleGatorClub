@@ -209,8 +209,9 @@ collections:
         time_format: "h:mm A"        # display only, in the editor's time picker
         picker_utc: false
       - { label: "Location", name: location, widget: string }
+      - { label: "Location Map URL (Google Maps link — makes the location clickable)", name: location_url, widget: string, required: false }
       - { label: "Contact (e.g. a name, phone, or email — shown on the event card if filled in)", name: contact, widget: string, required: false }
       - { label: "'Add to Calendar' URL", name: calendar_url, widget: string, required: false }
       - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
       - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string, required: false }
-      - { label: "Hide from listings (keep page from being built)", name: permalink, widget: hidden, default: false }
+      - { label: "Hide from listings (keepq page from being built)", name: permalink, widget: hidden, default: false }

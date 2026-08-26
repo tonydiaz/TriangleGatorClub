@@ -1,28 +1,25 @@
-# Triangle Gator Club — website template
+# Triangle Gator Club — website
 
-A static site (built with [Eleventy](https://www.11ty.dev/)) that mirrors the layout of
-`triangle-gator-pulse.base44.app`, with every page wired up to [Decap CMS](https://decapcms.org/)
-so a non-technical board member can edit all text, button labels/links, and events from a
-`/admin` panel — no code required.
-
-Photos are placeholder SVGs (`src/images/uploads/hero-1.svg`, `hero-2.svg`) — swap them for
-real photos through the CMS media library once it's live, since the original site's photos
-weren't copied into this template.
+A static site (built with [Eleventy](https://www.11ty.dev/)) with every page wired up to
+[Decap CMS](https://decapcms.org/) so a non-technical board member can edit all text, button
+labels/links, images, and events from a `/admin` panel — no code required.
 
 ## What's editable from the CMS
 
 - **Site Settings** — nav links, header button, footer, scrolling banner text, social links
-- **Home Page** — hero headline/copy/buttons/images, stats row, "who we are" copy, events
-  section intro + tab labels, "Inner Circle" block
-- **About & Contact Page** — hero, "Our Story" copy, all 4 board member cards, contact info,
-  home-bar venue block
-- **Scholarship Page** — hero, "what it covers" copy, the 3-item history timeline, closing CTA
+- **Home Page** — hero headline/copy/buttons/logo image, stats row, "who we are" copy, events
+  section intro + tab labels, "Inner Circle" block (Facebook + Instagram buttons)
+- **About & Contact Page** — hero, "Our Story" copy, membership CTA button (links to the UFAA
+  join page), board member cards — name/role/degree/email (optional) and an optional photo
+  per member, contact info, home-bar venue block
+- **Scholarship Page** — hero, "what it covers" copy, closing CTA
 - **Sponsor Page** — hero, all 3 sponsorship tiers (price + bullet features + button), open
   games intro, custom-package CTA
-- **Events** — a folder of individual event entries (date, time, location, category badge,
-  description, calendar/discuss/sponsor links). The same event list automatically powers
-  both the Home page's "Upcoming Events" grid and the Sponsor page's "Open Games" grid — add,
-  edit, or remove an event once and both pages update.
+- **Events** — a folder of individual event entries (date, time, location + map link, category
+  badge, description, calendar/discuss/sponsor links). The same event list automatically powers
+  both the Home page's "Upcoming Events" timeline and the Sponsor page's "Open Games" grid — add,
+  edit, or remove an event once and both pages update. The location renders as a clickable link
+  to Google Maps only when a Location Map URL is filled in — otherwise it's plain text.
 
 ## Project structure
 
@@ -30,11 +27,13 @@ weren't copied into this template.
 src/
   _data/            → site.json, home.json, about.json, scholarship.json, sponsor.json
                       (each field here is exactly what Decap CMS edits)
-  _includes/        → base layout + header/footer/marquee/event-card partials
+  _includes/        → base layout + partials: nav, footer, marquee, icons, event-card,
+                      event-timeline-item
   events/           → one markdown file per event (also edited via Decap CMS)
   css/style.css     → all styling
-  js/main.js        → mobile nav toggle, event tab filter, countdown badge
-  images/uploads/   → CMS media library uploads land here
+  js/main.js        → mobile nav toggle, event tab filter, countdown badge, expand/collapse
+                      for long event descriptions
+  images/uploads/   → CMS media library uploads land here (logo, team photos, etc.)
   admin/            → Decap CMS (index.html + config.yml)
   *.njk             → the four pages: index, about, scholarship, sponsor
 ```
@@ -94,11 +93,12 @@ account or repo access.
    to the site, which opens a login modal — the "Login with Google" button is one click from
    there. The `base.njk` layout already includes the Identity widget script needed for that
    invite-link flow to work from any page.
-6. Visit `https://trianglegatorclub.netlify.app/admin/`, click **Login with Google** (or
-   whichever provider), and you're in. Every save creates a commit that redeploys the site
-   automatically.
+6. Visit `https://trianglegatorclub.com/admin/`, click **Login with Google** (or whichever
+   provider), and you're in. Every save creates a commit that redeploys the site automatically.
 
-`config.yml`'s `site_url` / `display_url` are already set to `https://trianglegatorclub.netlify.app`.
+`config.yml`'s `site_url` / `display_url` are already set to `https://trianglegatorclub.com`
+(the site's custom domain — swap these if you're running on a different domain or the plain
+`*.netlify.app` URL).
 
 <details>
 <summary>Alternative: plain GitHub OAuth login instead of Google</summary>
@@ -123,12 +123,17 @@ access to the repo — no Google option.
 
 ## Notes / things you'll likely want to change
 
-- **Placeholder images**: replace `hero-1.svg` / `hero-2.svg` via the CMS Home Page editor
-  (Hero Image 1 / Hero Image 2 fields) once you have real photos.
-- **Mailto/placeholder links**: `hero_button_url` on the Scholarship page points at
-  `https://givebutter.com/` — update it to your actual Givebutter campaign URL. Sponsorship
-  tier buttons and the custom-package CTA use `mailto:` links — update the address/subject
-  lines as needed in the Sponsor Page and Events editors.
+- **Board member photos**: each team member's photo (About page) is optional — upload one
+  through Decap's image field and it replaces the initials avatar automatically; leave it
+  blank and the initials show instead. Decap has no built-in crop tool, so crop/resize each
+  photo (square works best) before uploading.
+- **Unused leftover files**: `src/images/uploads/hero-1.svg` and `hero-2.svg` were the
+  original placeholder hero images and are no longer referenced anywhere (the hero now uses
+  the real club logo, and the old "Hero Image 2" field was removed) — safe to delete if you
+  want to tidy up the media library.
+- **Mailto links**: sponsorship tier buttons and the custom-package CTA on the Sponsor page,
+  and the per-event sponsor contact, use `mailto:` links — update the address/subject lines
+  in the Sponsor Page and Events editors if they change.
 - **Countdown badge**: shows time remaining until the earliest event's date (from the Events
   collection) — no separate field to maintain, it's computed from whichever event is soonest.
 - **Editors/permissions**: anyone who can push to the GitHub repo (or who you invite as a
