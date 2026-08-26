@@ -1,43 +1,47 @@
 {
   "open_games_text": "These upcoming events are still available. Pick one, email the board, and we'll lock it in and add your name.",
   "hero_eyebrow": "GET IN FRONT OF GATOR NATION",
-  "hero_subtext": "TONS of Triangle Gators gather at every watch party. Sponsor a game and put your business in front of a loyal, local, high-energy crowd — while helping fund the club and our scholarship.",
+  "hero_subtext": "Up to 100+ of our Triangle Gators gather at every watch party. Sponsor a game and put your business in front of a loyal, local, high-energy crowd — while helping fund the club and build our scholarship fund!",
   "custom_button_text": "Email the board to build a custom sponsorship",
   "open_games_heading": "GAMES LOOKING FOR A SPONSOR",
   "custom_button_url": "mailto:trianglegatorclub@gmail.com?subject=Custom Sponsorship Package",
   "tiers": [
     {
-      "name": "QUARTERBACK",
+      "name": "MVP",
       "price": "$500",
       "features": [
-        "Logo on event signage",
-        "Shout-out on the club socials",
-        "Two reserved seats at the watch party"
+        "Reserved table for 4 at Watch Party",
+        "Microphone speaking opportunity before kickoff and during halftime",
+        "Welcome table at entrance to Watch Party with the opportunity to share promotional items and company information",
+        "Company logo & website link on the TGC website, in our promo emails and social media events",
+        "Company logo on our signage at RallyPoint on game day",
+        "Recognition as game day sponsor on our TGC social media"
+      ],
+      "button_text": "Choose MVP",
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=MVP Sponsorship"
+    },
+    {
+      "name": "QUARTERBACK",
+      "price": "$250",
+      "features": [
+        "Microphone speaking opportunity before kickoff and during halftime",
+        "Company logo & website link on the TGC website, in our promo emails and social media events",
+        "Company logo on our signage at RallyPoint on game day",
+        "Recognition as game day sponsor on our TGC social media"
       ],
       "button_text": "Choose Quarterback",
       "button_url": "mailto:trianglegatorclub@gmail.com?subject=Quarterback Sponsorship"
     },
     {
-      "name": "CAPTAIN",
-      "price": "$250",
-      "features": [
-        "Mention on event signage",
-        "One social post",
-        "Reserved table for four"
-      ],
-      "button_text": "Choose Captain",
-      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Captain Sponsorship"
-    },
-    {
-      "name": "GATOR",
+      "name": "PLAYMAKER",
       "price": "$100",
       "features": [
-        "Name on the sponsor board",
-        "Thank-you in the group",
-        "A round on the club"
+        "Company logo & website link on the TGC website, in our promo emails and social media events",
+        "Company logo on our signage at RallyPoint on game day",
+        "Recognition as game day sponsor on our TGC social media"
       ],
-      "button_text": "Choose Gator",
-      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Gator Sponsorship"
+      "button_text": "Choose Playmaker",
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Playmaker Sponsorship"
     }
   ],
   "sponsor_button_text": "Sponsor this game",
