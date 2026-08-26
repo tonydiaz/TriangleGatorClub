@@ -563,6 +563,11 @@ ul { list-style: none; margin: 0; padding: 0; }
   justify-content: center;
   margin: 0 auto 16px;
 }
+.team-card__avatar--photo {
+  background-color: rgba(255,255,255,0.06);
+  background-size: cover;
+  background-position: center;
+}
 .team-card h3 { font-family: var(--font-head); margin: 0 0 4px; font-size: 1rem; }
 .team-card__role { color: var(--orange); font-size: 0.85rem; margin: 0 0 2px; }
 .team-card__degree { color: #9aa2c0; font-size: 0.8rem; margin: 0 0 14px; }

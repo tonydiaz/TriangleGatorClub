@@ -25,7 +25,11 @@ title: About & Contact
     <div class="team-grid">
       {% for person in about.team %}
       <div class="team-card">
+        {% if person.photo %}
+        <div class="team-card__avatar team-card__avatar--photo" style="background-image: url('{{ person.photo }}');"></div>
+        {% else %}
         <div class="team-card__avatar">{{ person.initials }}</div>
+        {% endif %}
         <h3>{{ person.name }}</h3>
         <p class="team-card__role">{{ person.role }}</p>
         <p class="team-card__degree">{{ person.degree }}</p>
