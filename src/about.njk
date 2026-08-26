@@ -29,7 +29,9 @@ title: About & Contact
         <h3>{{ person.name }}</h3>
         <p class="team-card__role">{{ person.role }}</p>
         <p class="team-card__degree">{{ person.degree }}</p>
+        {% if person.email and person.email | trim %}
         <a class="link-arrow" href="mailto:{{ person.email }}">Email</a>
+        {% endif %}
       </div>
       {% endfor %}
     </div>

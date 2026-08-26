@@ -6,8 +6,8 @@ backend:
   # to, and login goes through Netlify Identity (see README for setup).
 
 # Set this to your deployed site's URL so "Preview" links and local dev work correctly.
-site_url: https://trianglegatorclub.netlify.app
-display_url: https://trianglegatorclub.netlify.app
+site_url: https://trianglegatorclub.com
+display_url: https://trianglegatorclub.com
 logo_url: /images/uploads/club-logo.png
 
 local_backend: true
@@ -114,7 +114,7 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Role, name: role, widget: string }
               - { label: Degree, name: degree, widget: string }
-              - { label: Email, name: email, widget: string }
+              - { label: Email, name: email, widget: string, required: false }
 
           - { label: "Contact Heading", name: contact_heading, widget: string }
           - { label: "Contact Text", name: contact_text, widget: text }
