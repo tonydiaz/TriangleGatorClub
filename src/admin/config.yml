@@ -64,7 +64,6 @@ collections:
           - { label: "Hero Secondary Button Text", name: hero_button_secondary_text, widget: string }
           - { label: "Hero Secondary Button URL", name: hero_button_secondary_url, widget: string }
           - { label: "Hero Image 1", name: hero_image_1, widget: image }
-          - { label: "Hero Image 2", name: hero_image_2, widget: image }
           - { label: "'Next Event' Badge Label", name: next_event_badge_label, widget: string }
 
           - { label: "Who We Are — Eyebrow", name: who_eyebrow, widget: string }
@@ -104,6 +103,8 @@ collections:
           - { label: "Story Paragraph 1", name: story_paragraph_1, widget: text }
           - { label: "Story Paragraph 2", name: story_paragraph_2, widget: text }
           - { label: "Story Paragraph 3 (Membership)", name: story_paragraph_3, widget: text }
+          - { label: "Membership Button Text", name: membership_button_text, widget: string, required: false }
+          - { label: "Membership Button URL", name: membership_button_url, widget: string, required: false }
 
           - { label: "Team Section Heading", name: team_heading, widget: string }
           - label: "Team Members"

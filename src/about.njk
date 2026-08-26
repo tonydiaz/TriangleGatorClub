@@ -16,6 +16,9 @@ title: About & Contact
     <p class="lede">{{ about.story_paragraph_1 }}</p>
     <p class="lede">{{ about.story_paragraph_2 }}</p>
     <p class="lede">{{ about.story_paragraph_3 }}</p>
+    {% if about.membership_button_url %}
+    <a class="btn btn--primary" href="{{ about.membership_button_url }}">{{ about.membership_button_text }}</a>
+    {% endif %}
   </div>
 </section>
 
