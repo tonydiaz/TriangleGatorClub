@@ -84,12 +84,13 @@ collections:
           - { label: "Events Tab — Other", name: events_tab_other, widget: string }
           - { label: "Event Card Sponsor Button Text", name: events_card_button_text, widget: string }
 
-          - { label: "Den — Badge Label", name: den_badge_label, widget: string }
           - { label: "Den — Heading", name: den_heading, widget: string }
           - { label: "Den — Text", name: den_text, widget: text }
-          - { label: "Den — Button Text", name: den_button_text, widget: string }
-          - { label: "Den — Button URL", name: den_button_url, widget: string }
-          - { label: "Den — Fine Print Note", name: den_note, widget: string }
+          - { label: "Den — Button Text", name: den_button_text, widget: string, required: false }
+          - { label: "Den — Button URL", name: den_button_url, widget: string, required: false }
+          - { label: "Den — Instagram Button Text", name: den_instagram_button_text, widget: string, required: false }
+          - { label: "Den — Instagram Button URL", name: den_instagram_button_url, widget: string, required: false }
+          - { label: "Den — Fine Print Note", name: den_note, widget: string, required: false }
 
       - file: src/_data/about.json
         name: about

@@ -74,10 +74,14 @@ title: Home
 
 <section class="section" id="den">
   <div class="wrap den">
-    <span class="badge">{{ home.den_badge_label }}</span>
     <h2 class="display display--md">{{ home.den_heading }}</h2>
     <p class="lede">{{ home.den_text }}</p>
-    <a class="btn btn--primary" href="{{ home.den_button_url }}">{{ home.den_button_text }}</a>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="{{ home.den_button_url }}">{{ home.den_button_text }}</a>
+      {% if home.den_instagram_button_url %}
+      <a class="btn btn--blue" href="{{ home.den_instagram_button_url }}">{{ home.den_instagram_button_text }}</a>
+      {% endif %}
+    </div>
     <p class="fine-print">{{ home.den_note }}</p>
   </div>
 </section>
