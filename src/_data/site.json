@@ -33,16 +33,16 @@
       "url": "/#events"
     },
     {
-      "label": "About & Contact",
-      "url": "/about/"
-    },
-    {
       "label": "Scholarship",
       "url": "/scholarship/"
     },
     {
       "label": "Sponsor",
       "url": "/sponsor/"
+    },
+    {
+      "label": "About & Contact",
+      "url": "/about/"
     },
     {
       "label": "Club Merch",
