@@ -4,6 +4,7 @@ category: GATOR GOOD
 tab: other
 event_start: 2026-12-05T08:00
 location: The Bicycle Chain
+location_url: "https://www.google.com/maps/search/?api=1&query=The+Bicycle+Chain%2C+9000+Glenwood+Ave%2C+Raleigh%2C+NC+27617"
 calendar_url: g
 discuss_url: g
 sponsor_available: false

@@ -16,7 +16,7 @@
       <div class="timeline-card__desc">{{ event.templateContent | safe }}</div>
       <div class="timeline-card__meta">
         <span>{{ clockIcon() }}{{ event.data.event_start | dayTimeLabel }}</span>
-        <span>{{ pinIcon() }}{{ event.data.location }}</span>
+        <span>{{ pinIcon() }}{% if event.data.location_url %}<a class="timeline-card__map-link" href="{{ event.data.location_url }}" target="_blank" rel="noopener">{{ event.data.location }}</a>{% else %}{{ event.data.location }}{% endif %}</span>
         {% if event.data.contact %}<span>{{ contactIcon() }}{{ event.data.contact }}</span>{% endif %}
       </div>
       <div class="timeline-card__actions">

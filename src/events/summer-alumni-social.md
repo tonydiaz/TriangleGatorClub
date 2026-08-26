@@ -5,6 +5,7 @@ tab: other
 opponent_line: ""
 event_start: 2026-08-22T20:00
 location: The Avenue - 3 Glenwood Ave
+location_url: "https://www.google.com/maps/search/?api=1&query=The+Avenue%2C+3+Glenwood+Ave%2C+Raleigh%2C+NC+27603"
 calendar_url: https://calendar.google.com/
 discuss_url: https://www.facebook.com/trianglegatorclub
 sponsor_available: false

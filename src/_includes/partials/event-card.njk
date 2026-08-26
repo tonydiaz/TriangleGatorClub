@@ -11,7 +11,7 @@
     </div>
     <h3>{{ event.data.title }}</h3>
     <div class="event-card__desc">{{ event.templateContent | safe }}</div>
-    <p class="event-card__meta">{{ event.data.event_start | dayTimeLabel }}<br>{{ event.data.location }}{% if event.data.contact %}<br>Contact: {{ event.data.contact }}{% endif %}</p>
+    <p class="event-card__meta">{{ event.data.event_start | dayTimeLabel }}<br>{% if event.data.location_url %}<a class="event-card__map-link" href="{{ event.data.location_url }}" target="_blank" rel="noopener">{{ event.data.location }}</a>{% else %}{{ event.data.location }}{% endif %}{% if event.data.contact %}<br>Contact: {{ event.data.contact }}{% endif %}</p>
     <div class="event-card__actions">
       {% if mode == "sponsor" %}
         {% if event.data.sponsor_url %}<a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>{% endif %}
