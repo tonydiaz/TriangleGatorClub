@@ -8,7 +8,7 @@ backend:
 # Set this to your deployed site's URL so "Preview" links and local dev work correctly.
 site_url: https://trianglegatorclub.netlify.app
 display_url: https://trianglegatorclub.netlify.app
-logo_url: /images/uploads/hero-1.svg
+logo_url: /images/uploads/club-logo.png
 
 local_backend: true
 
