@@ -2,12 +2,12 @@
   "events_tab_other": "Other Events",
   "hero_button_secondary_text": "Donate Now",
   "den_instagram_button_url": "https://instagram.com/trianglegatorclub",
-  "who_heading": "ORANGE & BLUE, NINE HOURS NORTH.",
+  "who_heading": "ORANGE & BLUE, EIGHT HOURS NORTH.",
   "events_eyebrow": "THE GAME PLAN",
   "hero_eyebrow": "RALEIGH · DURHAM · SURROUNDING AREAS, NC",
   "den_note": "",
   "next_event_badge_label": "NEXT EVENT",
-  "hero_subtext": "The official gathering place for Florida Gators alumni and fans across Raleigh, Durham and the surrounding areas. Watch parties every game day, service in the community, and a whole lot of orange and blue.",
+  "hero_subtext": "The official gathering place for Florida Gators alumni and fans across Raleigh, Durham and surrounding areas within the Triangle are of Central NC. Watch parties every game day, service in the community, and a whole lot of orange and blue.",
   "who_eyebrow": "WHO WE ARE",
   "den_button_text": "Join the Facebook group",
   "hero_image_1": "/images/uploads/club-logo.png",
@@ -19,7 +19,7 @@
   "events_card_button_text": "Sponsor this game",
   "hero_button_primary_text": "See Upcoming Events",
   "hero_heading_highlight": "EXTENDS",
-  "events_text": "Watch parties, socials and service days across the Triangle. Everyone is welcome — degree or not.",
+  "events_text": "Watch parties, socials and service days across the Triangle. Everyone is welcome — bring your friends, family, and even your pets!",
   "hero_heading_top": "THE SWAMP",
   "den_button_url": "https://www.facebook.com/trianglegatorclub",
   "hero_heading_rest": "TO THE",
@@ -28,18 +28,18 @@
   "hero_button_secondary_url": "https://givebutter.com/trianglegatorclubendowment",
   "stats": [
     {
-      "number": "600+",
+      "number": "700+",
       "label": "Alumni & fans in the Triangle"
     },
     {
       "number": "12",
-      "label": "Watch parties every season"
+      "label": "Guaranteed Football Watch Parties every season"
     },
     {
-      "number": "$14K",
-      "label": "Raised for student scholarships"
+      "number": "$1,500K",
+      "label": "Awarded in 2026 for student scholarships"
     }
   ],
-  "den_text": "Our day-to-day lives in a private Facebook group — last-minute watch party changes, ticket swaps, tailgate plans and the group chat energy you'd expect from Gator Nation. Request to join and a board member will approve you.",
+  "den_text": "Our day-to-day lives in our Facebook group — last-minute watch party changes, ticket swaps, tailgate plans and the group chat energy you'd expect from Gator Nation. Click below to join and get all the latest TGC news.",
   "events_tab_watch": "Watch Parties"
 }
