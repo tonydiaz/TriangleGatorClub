@@ -1,6 +1,7 @@
 {
   "events_tab_other": "Other Events",
   "hero_button_secondary_text": "Donate Now",
+  "den_instagram_button_url": "https://instagram.com/trianglegatorclub",
   "who_heading": "ORANGE & BLUE, NINE HOURS NORTH.",
   "events_eyebrow": "THE GAME PLAN",
   "hero_eyebrow": "RALEIGH · DURHAM · SURROUNDING AREAS, NC",
@@ -21,11 +22,10 @@
   "events_text": "Watch parties, socials and service days across the Triangle. Everyone is welcome — degree or not.",
   "hero_heading_top": "THE SWAMP",
   "den_button_url": "https://www.facebook.com/trianglegatorclub",
-  "den_instagram_button_text": "Follow on Instagram",
-  "den_instagram_button_url": "https://instagram.com/trianglegatorclub",
   "hero_heading_rest": "TO THE",
+  "den_instagram_button_text": "Follow on Instagram",
   "events_heading": "UPCOMING EVENTS",
-  "hero_button_secondary_url": "/scholarship/",
+  "hero_button_secondary_url": "https://givebutter.com/trianglegatorclubendowment",
   "stats": [
     {
       "number": "600+",
