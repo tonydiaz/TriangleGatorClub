@@ -215,13 +215,13 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .next-event-badge__label {
   font-family: var(--font-head);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin: 0 0 4px;
   opacity: 0.85;
 }
-.next-event-badge__title { font-weight: 700; margin: 0 0 6px; font-size: 0.95rem; }
+.next-event-badge__title { font-weight: 700; margin: 0 0 6px; font-size: 1.15rem; }
 .next-event-badge__countdown { font-family: var(--font-head); font-weight: 600; margin: 0; letter-spacing: 0.05em; }
 
 @media (max-width: 900px) {
