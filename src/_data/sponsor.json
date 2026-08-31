@@ -42,6 +42,18 @@
       ],
       "button_text": "Choose Playmaker",
       "button_url": "mailto:trianglegatorclub@gmail.com?subject=Playmaker Sponsorship"
+    },
+    {
+      "name": "First & Pour",
+      "price": "TBD",
+      "features": [
+        "Host our pre-game cocktail hour for UFAA members only",
+        "Wristbands with Company logo",
+        "Recognition as game day sponsor on our TGC website, promo emails & social media",
+        "Welcome table at entrance to cocktail hour with the opportunity to share promotional items and company information"
+      ],
+      "button_url": "mailto:trianglegatorclub@gmail.com?subject=Happy Hour Sponsorship",
+      "button_text": "Choose First & Pour"
     }
   ],
   "sponsor_button_text": "Sponsor this game",
