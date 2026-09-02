@@ -142,6 +142,11 @@ collections:
           - { label: "Hero Button Text", name: hero_button_text, widget: string }
           - { label: "Hero Button URL", name: hero_button_url, widget: string }
 
+          - { label: "Apply — Heading", name: apply_heading, widget: string }
+          - { label: "Apply — Text", name: apply_text, widget: text }
+          - { label: "Apply — Button Text", name: apply_button_text, widget: string }
+          - { label: "Apply — Button URL", name: apply_button_url, widget: string }
+
           - { label: "Covers — Eyebrow", name: covers_eyebrow, widget: string }
           - { label: "Covers — Heading", name: covers_heading, widget: string }
           - { label: "Covers — Text", name: covers_text, widget: text }

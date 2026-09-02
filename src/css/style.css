@@ -236,6 +236,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 .section { padding: 96px 0; }
 .section--dark { background: var(--navy-2); color: var(--white); }
 .section--cta { background: var(--navy-2); color: var(--white); }
+.section--tint { background: var(--gray-100); }
 .section--cta .lede { margin-left: auto; margin-right: auto; color: #cfd4ea; }
 
 .who-grid {
