@@ -119,6 +119,11 @@ collections:
               - { label: Degree, name: degree, widget: string }
               - { label: Email, name: email, widget: string, required: false }
 
+          - { label: "Volunteer — Heading", name: volunteer_heading, widget: string }
+          - { label: "Volunteer — Text", name: volunteer_text, widget: text }
+          - { label: "Volunteer — Button Text", name: volunteer_button_text, widget: string, required: false }
+          - { label: "Volunteer — Button URL (e.g. a mailto: link)", name: volunteer_button_url, widget: string, required: false }
+
           - { label: "Contact Heading", name: contact_heading, widget: string }
           - { label: "Contact Text", name: contact_text, widget: text }
           - { label: "Contact Email", name: contact_email, widget: string }
