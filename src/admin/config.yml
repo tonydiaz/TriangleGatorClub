@@ -90,6 +90,8 @@ collections:
           - { label: "Den — Button URL", name: den_button_url, widget: string, required: false }
           - { label: "Den — Instagram Button Text", name: den_instagram_button_text, widget: string, required: false }
           - { label: "Den — Instagram Button URL", name: den_instagram_button_url, widget: string, required: false }
+          - { label: "Den — Email List Button Text", name: den_email_button_text, widget: string, required: false }
+          - { label: "Den — Email List Button URL", name: den_email_button_url, widget: string, required: false }
           - { label: "Den — Fine Print Note", name: den_note, widget: string, required: false }
 
       - file: src/_data/about.json

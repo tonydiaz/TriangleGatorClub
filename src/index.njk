@@ -81,6 +81,9 @@ title: Home
       {% if home.den_instagram_button_url %}
       <a class="btn btn--blue" href="{{ home.den_instagram_button_url }}">{{ home.den_instagram_button_text }}</a>
       {% endif %}
+      {% if home.den_email_button_url %}
+      <a class="btn btn--outline" href="{{ home.den_email_button_url }}" target="_blank" rel="noopener">{{ home.den_email_button_text }}</a>
+      {% endif %}
     </div>
     <p class="fine-print">{{ home.den_note }}</p>
   </div>
