@@ -227,3 +227,23 @@ collections:
       - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
       - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string, required: false }
       - { label: "Hide from listings (keepq page from being built)", name: permalink, widget: hidden, default: false }
+
+  - name: newsletters
+    label: Newsletters
+    folder: src/newsletters
+    create: true
+    slug: "{{year}}-{{month}}-issue"
+    identifier_field: title
+    fields:
+      - { label: "Issue Title (e.g. September 2026 Newsletter)", name: title, widget: string }
+      - label: "Issue Date"
+        name: issue_date
+        widget: date
+        format: "YYYY-MM-DD"
+        hint: "Controls sort order — the newest date shown here becomes the 'Current Issue' on the page."
+      - { label: "Short Summary", name: summary, widget: text }
+      - label: "PDF File"
+        name: pdf
+        widget: file
+        media_folder: "src/files/newsletters"
+        public_folder: "/files/newsletters"

@@ -1,0 +1,43 @@
+---
+layout: base.njk
+title: Newsletters
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">Stay in the Loop</p>
+    <h1 class="display light">Newsletters</h1>
+    <p class="lede lede--light lede--narrow">Read the latest Triangle Gator Club newsletter, or browse past issues below.</p>
+  </div>
+</section>
+
+{% set current = collections.newsletters[0] %}
+{% if current %}
+<section class="section">
+  <div class="wrap prose newsletter-featured">
+    <p class="eyebrow">Current Issue</p>
+    <h2 class="display display--md">{{ current.data.title }}</h2>
+    <p class="lede">{{ current.data.summary }}</p>
+    <div class="newsletter-embed">
+      <iframe src="{{ current.data.pdf }}" title="{{ current.data.title }}" loading="lazy"></iframe>
+    </div>
+    <a class="link-arrow" href="{{ current.data.pdf }}" target="_blank" rel="noopener">Open in new tab / download ↗</a>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section--tint">
+  <div class="wrap">
+    <h2 class="display display--md center">Archive</h2>
+    {% if collections.newsletters.length > 1 %}
+    <div class="newsletter-archive-grid">
+      {% for issue in collections.newsletters %}
+        {% if not loop.first %}
+        {% include "partials/newsletter-card.njk" %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="lede lede--narrow center">Past issues will show up here once there's more than one.</p>
+    {% endif %}
+  </div>
+</section>

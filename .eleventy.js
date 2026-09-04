@@ -1,4 +1,5 @@
 const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const MONTHS_FULL = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const WEEKDAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 // Events store one field, event_start, via Decap's "datetime" widget (format:
@@ -46,6 +47,17 @@ function formatTime12h(h, mi) {
 // event_start is typed as a local Eastern kickoff/start time with no offset).
 // Using Intl here, rather than the server's own local time, keeps the
 // comparison correct no matter what timezone the build machine runs in.
+// Newsletters store one field, issue_date, via Decap's plain "date" widget
+// (format: "YYYY-MM-DD", no time component). Same Date-vs-string ambiguity as
+// event_start above, so normalize the same way.
+function toDateParts(isoDate) {
+  if (isoDate instanceof Date) {
+    return { y: isoDate.getUTCFullYear(), m: isoDate.getUTCMonth() + 1, d: isoDate.getUTCDate() };
+  }
+  const [y, m, d] = String(isoDate).split("-").map((n) => parseInt(n, 10));
+  return { y, m, d };
+}
+
 function nowSortableStringEastern() {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/New_York",
@@ -68,6 +80,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/files");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   // Collections
@@ -82,6 +95,14 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => {
         return toSortableString(a.data.event_start).localeCompare(toSortableString(b.data.event_start));
       });
+  });
+
+  // Newest issue first — unlike events, nothing is ever filtered out; older
+  // issues just render smaller, in the archive section of newsletters.njk.
+  eleventyConfig.addCollection("newsletters", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/newsletters/*.md")
+      .sort((a, b) => new Date(b.data.issue_date) - new Date(a.data.issue_date));
   });
 
   // Filters — all tolerant of event_start being a String or a Date.
@@ -99,6 +120,11 @@ module.exports = function (eleventyConfig) {
   // "YYYY-MM-DDTHH:mm:ss" for the homepage countdown badge's data attribute.
   eleventyConfig.addFilter("isoDateTime", (eventStart) => {
     return toSortableString(eventStart) + ":00";
+  });
+  // "September 2026" — used on the newsletters page.
+  eleventyConfig.addFilter("monthYear", (isoDate) => {
+    const { y, m } = toDateParts(isoDate);
+    return `${MONTHS_FULL[m - 1] || ""} ${y}`;
   });
 
   return {

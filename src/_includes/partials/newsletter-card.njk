@@ -1,0 +1,6 @@
+{# Expects: issue (a newsletters collection item) #}
+<a class="newsletter-card" href="{{ issue.data.pdf }}" target="_blank" rel="noopener">
+  <span class="newsletter-card__date">{{ issue.data.issue_date | monthYear }}</span>
+  <span class="newsletter-card__title">{{ issue.data.title }}</span>
+  <span class="link-arrow">Open PDF ↗</span>
+</a>
