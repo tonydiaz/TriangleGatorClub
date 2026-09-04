@@ -198,7 +198,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 .next-event-badge {
   position: absolute;
   right: 24px;
-  bottom: -36px;
+  bottom: 0;
   background: var(--orange);
   color: var(--white);
   padding: 16px 20px;
@@ -214,22 +214,37 @@ ul { list-style: none; margin: 0; padding: 0; }
   transform: translateY(-2px);
   box-shadow: 0 24px 48px rgba(0,0,0,0.4);
 }
+.next-event-badge__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 4px;
+}
 .next-event-badge__label {
   font-family: var(--font-head);
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin: 0 0 4px;
+  margin: 0;
   opacity: 0.85;
 }
-.next-event-badge__title { font-weight: 700; margin: 0 0 6px; font-size: 1.15rem; }
-.next-event-badge__countdown { font-family: var(--font-head); font-weight: 600; margin: 0; letter-spacing: 0.05em; }
+.next-event-badge__title { font-weight: 700; margin: 0; font-size: 1.15rem; }
+.next-event-badge__countdown {
+  font-family: var(--font-head);
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
 
 @media (max-width: 900px) {
+  .hero { padding-bottom: 40px; }
   .hero__inner { grid-template-columns: 1fr; }
   .hero__media { margin-top: 40px; }
   .hero__logo { max-width: 280px; margin: 0 auto; }
-  .next-event-badge { position: static; margin-top: 60px; max-width: none; }
+  .next-event-badge { position: static; margin-top: 60px; margin-bottom: 0; max-width: none; }
 }
 
 /* ===== Sections ===== */

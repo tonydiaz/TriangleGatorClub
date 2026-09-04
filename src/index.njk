@@ -24,9 +24,11 @@ title: Home
   {% set nextEvent = collections.events[0] %}
   {% if nextEvent %}
   <a class="next-event-badge" href="#event-{{ nextEvent.fileSlug }}">
-    <p class="next-event-badge__label">{{ home.next_event_badge_label }}</p>
+    <div class="next-event-badge__row">
+      <p class="next-event-badge__label">{{ home.next_event_badge_label }}</p>
+      <p class="next-event-badge__countdown" data-countdown="{{ nextEvent.data.event_start | isoDateTime }}">—</p>
+    </div>
     <p class="next-event-badge__title">{{ nextEvent.data.title }}</p>
-    <p class="next-event-badge__countdown" data-countdown="{{ nextEvent.data.event_start | isoDateTime }}">—</p>
   </a>
   {% endif %}
 </section>
