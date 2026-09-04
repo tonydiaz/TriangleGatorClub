@@ -13,10 +13,10 @@ title: Newsletters
 {% set current = collections.newsletters[0] %}
 {% if current %}
 <section class="section">
-  <div class="wrap prose newsletter-featured">
+  <div class="wrap newsletter-featured">
     <p class="eyebrow">Current Issue</p>
     <h2 class="display display--md">{{ current.data.title }}</h2>
-    <p class="lede">{{ current.data.summary }}</p>
+    <p class="lede lede--narrow">{{ current.data.summary }}</p>
     <div class="newsletter-embed">
       <iframe src="{{ current.data.pdf }}" title="{{ current.data.title }}" loading="lazy"></iframe>
     </div>

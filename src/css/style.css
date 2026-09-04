@@ -628,12 +628,12 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 
 /* ===== Newsletters ===== */
-.newsletter-featured { text-align: center; }
+.newsletter-featured { max-width: 1080px; margin: 0 auto; text-align: center; }
 .newsletter-embed {
-  position: relative;
   width: 100%;
-  padding-top: 129%; /* portrait-page aspect ratio, roughly a US-Letter page */
-  max-height: 85vh;
+  height: 85vh;
+  min-height: 640px;
+  max-height: 1400px;
   margin: 8px 0 20px;
   border: 1px solid var(--gray-200);
   border-radius: var(--radius);
@@ -641,14 +641,13 @@ ul { list-style: none; margin: 0; padding: 0; }
   background: var(--gray-100);
 }
 .newsletter-embed iframe {
-  position: absolute;
-  inset: 0;
+  display: block;
   width: 100%;
   height: 100%;
   border: 0;
 }
-@media (max-height: 700px) {
-  .newsletter-embed { padding-top: 0; height: 70vh; }
+@media (max-height: 750px) {
+  .newsletter-embed { height: 75vh; min-height: 480px; }
 }
 
 .newsletter-archive-grid {

@@ -247,3 +247,4 @@ collections:
         widget: file
         media_folder: "src/files/newsletters"
         public_folder: "/files/newsletters"
+      - { label: "Hide from listings (keep page from being built)", name: permalink, widget: hidden, default: false }
