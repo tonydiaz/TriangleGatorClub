@@ -23,7 +23,7 @@ title: Home
   </div>
   {% set nextEvent = collections.events[0] %}
   {% if nextEvent %}
-  <a class="next-event-badge" href="#event-{{ nextEvent.fileSlug }}">
+  <a class="next-event-badge" href="#event-{{ nextEvent.fileSlug }}" data-start="{{ nextEvent.data.event_start | isoDateTime }}">
     <div class="next-event-badge__row">
       <p class="next-event-badge__label">{{ home.next_event_badge_label }}</p>
       <p class="next-event-badge__countdown" data-countdown="{{ nextEvent.data.event_start | isoDateTime }}">—</p>

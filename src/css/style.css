@@ -301,6 +301,36 @@ ul { list-style: none; margin: 0; padding: 0; }
   border-radius: 999px;
 }
 .tag--muted { background: rgba(255,255,255,0.12); color: #cfd4ea; }
+
+/* ===== Sponsor logo badge (shown once an event is sponsored) ===== */
+.sponsor-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  padding: 8px 14px;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  max-width: 100%;
+}
+.sponsor-badge__label {
+  font-family: var(--font-head);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gray-600);
+  white-space: nowrap;
+}
+.sponsor-badge img {
+  display: block;
+  max-height: 40px;
+  max-width: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
 .event-card h3 { font-family: var(--font-head); margin: 0 0 8px; font-size: 1.15rem; }
 .event-card p { color: #cfd4ea; margin: 0 0 10px; font-size: 0.92rem; overflow-wrap: anywhere; }
 .event-card__meta { color: #9aa2c0 !important; font-size: 0.85rem !important; }

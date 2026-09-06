@@ -1,4 +1,16 @@
 (function () {
+  // Events are filtered to "upcoming only" at build time (see .eleventy.js),
+  // but this is a static site that only rebuilds on a new deploy — so an
+  // event can quietly go stale in the already-published HTML once its start
+  // time passes with no new commit to trigger a rebuild. Sweep for that here
+  // on every page load and drop anything (timeline card, event card, the
+  // next-event badge) whose data-start has already passed, so the page
+  // self-corrects between deploys instead of showing a past event as upcoming.
+  document.querySelectorAll("[data-start]").forEach(function (el) {
+    var start = new Date(el.getAttribute("data-start"));
+    if (start <= new Date()) el.remove();
+  });
+
   // Mobile nav toggle
   var toggle = document.querySelector(".nav-toggle");
   var mobileNav = document.querySelector(".site-nav--mobile");

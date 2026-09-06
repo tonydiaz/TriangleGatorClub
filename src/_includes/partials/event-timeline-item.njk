@@ -1,6 +1,6 @@
 {% from "partials/icons.njk" import calendarIcon, clockIcon, pinIcon, commentIcon, giftIcon, contactIcon %}
 {# Expects: event (a collection item), button_text #}
-<div class="timeline-item" id="event-{{ event.fileSlug }}" data-tab="{{ event.data.tab }}">
+<div class="timeline-item" id="event-{{ event.fileSlug }}" data-tab="{{ event.data.tab }}" data-start="{{ event.data.event_start | isoDateTime }}">
   <span class="timeline-dot"></span>
   <article class="timeline-card">
     <div class="timeline-card__date">
@@ -8,6 +8,12 @@
       <span class="timeline-card__day">{{ event.data.event_start | dayNum }}</span>
     </div>
     <div class="timeline-card__body">
+      {% if event.data.sponsor_logo %}
+      <div class="sponsor-badge">
+        <span class="sponsor-badge__label">Sponsored by</span>
+        <img src="{{ event.data.sponsor_logo }}" alt="{{ event.data.sponsor_name or 'Event sponsor' }} logo" loading="lazy">
+      </div>
+      {% endif %}
       <div class="timeline-card__tags">
         <span class="tag-text">{{ event.data.category }}</span>
         {% if event.data.opponent_line %}<span class="tag-text tag-text--muted">{{ event.data.opponent_line }}</span>{% endif %}

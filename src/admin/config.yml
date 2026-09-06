@@ -226,6 +226,8 @@ collections:
       - { label: "'Add to Calendar' URL", name: calendar_url, widget: string, required: false }
       - { label: "Open for Sponsorship?", name: sponsor_available, widget: boolean, default: true }
       - { label: "Sponsor Contact URL (mailto or link)", name: sponsor_url, widget: string, required: false }
+      - { label: "Sponsor Name (once sponsored — used as the logo's alt text)", name: sponsor_name, widget: string, required: false }
+      - { label: "Sponsor Logo (once sponsored — upload the sponsor's logo to display it on the event; transparent PNG/SVG works best)", name: sponsor_logo, widget: image, required: false }
       - { label: "Hide from listings (keepq page from being built)", name: permalink, widget: hidden, default: false }
 
   - name: newsletters

@@ -1,10 +1,16 @@
 {# Expects: event (a collection item), mode ("home" or "sponsor"), button_text #}
-<article class="event-card" data-tab="{{ event.data.tab }}">
+<article class="event-card" data-tab="{{ event.data.tab }}" data-start="{{ event.data.event_start | isoDateTime }}">
   <div class="event-card__date">
     <span class="event-card__month">{{ event.data.event_start | monthShort }}</span>
     <span class="event-card__day">{{ event.data.event_start | dayNum }}</span>
   </div>
   <div class="event-card__body">
+    {% if event.data.sponsor_logo %}
+    <div class="sponsor-badge">
+      <span class="sponsor-badge__label">Sponsored by</span>
+      <img src="{{ event.data.sponsor_logo }}" alt="{{ event.data.sponsor_name or 'Event sponsor' }} logo" loading="lazy">
+    </div>
+    {% endif %}
     <div class="event-card__tags">
       <span class="tag">{{ event.data.category }}</span>
       {% if event.data.opponent_line %}<span class="tag tag--muted">{{ event.data.opponent_line }}</span>{% endif %}
