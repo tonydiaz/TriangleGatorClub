@@ -302,21 +302,32 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .tag--muted { background: rgba(255,255,255,0.12); color: #cfd4ea; }
 
-/* ===== Sponsor logo badge (shown once an event is sponsored) ===== */
+/* ===== Sponsor logo badge (shown once an event is sponsored) =====
+   Floated right so the tags/title/description text wraps around it —
+   its height never pushes content down, and (unlike absolute
+   positioning) the browser reflows the text itself, so it can never
+   sit underneath the badge no matter how long the description runs. */
 .sponsor-badge {
+  float: right;
+  margin: 0 0 14px 16px;
   display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 14px;
-  padding: 8px 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px 18px;
   background: var(--white);
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.22);
+  max-width: 260px;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+a.sponsor-badge:hover, a.sponsor-badge:focus-visible {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transform: translateY(-1px);
 }
 .sponsor-badge__label {
   font-family: var(--font-head);
-  font-size: 0.6rem;
+  font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -325,17 +336,22 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .sponsor-badge img {
   display: block;
-  max-height: 40px;
-  max-width: 180px;
+  max-height: 64px;
+  max-width: 260px;
   width: auto;
   height: auto;
   object-fit: contain;
 }
+/* Slightly smaller cap on the compact sponsor-page card so the logo doesn't overwhelm it */
+.event-card .sponsor-badge img { max-height: 48px; max-width: 200px; }
 .event-card h3 { font-family: var(--font-head); margin: 0 0 8px; font-size: 1.15rem; }
 .event-card p { color: #cfd4ea; margin: 0 0 10px; font-size: 0.92rem; overflow-wrap: anywhere; }
-.event-card__meta { color: #9aa2c0 !important; font-size: 0.85rem !important; }
+.event-card__meta { clear: right; color: #9aa2c0 !important; font-size: 0.85rem !important; }
 .event-card__map-link { color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.35); text-underline-offset: 2px; }
 .event-card__map-link:hover { color: var(--orange); text-decoration-color: currentColor; }
+.event-card__desc a { color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.35); text-underline-offset: 2px; }
+.event-card__desc a:hover { color: var(--orange); text-decoration-color: currentColor; }
+.event-card__desc ul, .event-card__desc ol { margin: 0 0 10px; padding-left: 1.2em; }
 .event-card__actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
 .event-card__desc {
   display: -webkit-box;
@@ -423,6 +439,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 .timeline-card__day { font-family: var(--font-head); font-weight: 700; font-size: 1.7rem; line-height: 1; }
 .timeline-card__body { flex: 1; min-width: 0; }
 .timeline-card__tags { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.timeline-card__body--sponsored .timeline-card__tags,
+.timeline-card__body--sponsored h3 { padding-right: 220px; }
 .tag-text {
   font-family: var(--font-head);
   font-size: 0.68rem;
@@ -441,7 +459,10 @@ ul { list-style: none; margin: 0; padding: 0; }
   overflow: hidden;
 }
 .timeline-card__desc.is-expanded { display: block; overflow: visible; }
-.timeline-card__meta { display: flex; gap: 24px; flex-wrap: wrap; color: var(--gray-600); font-size: 0.88rem; margin-bottom: 18px; }
+.timeline-card__desc a { color: inherit; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.2); text-underline-offset: 2px; }
+.timeline-card__desc a:hover { color: var(--orange); text-decoration-color: currentColor; }
+.timeline-card__desc ul, .timeline-card__desc ol { margin: 0 0 14px; padding-left: 1.2em; }
+.timeline-card__meta { clear: right; display: flex; gap: 24px; flex-wrap: wrap; color: var(--gray-600); font-size: 0.88rem; margin-bottom: 18px; }
 .timeline-card__meta span { display: inline-flex; align-items: center; gap: 6px; }
 .timeline-card__map-link { color: inherit; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.2); text-underline-offset: 2px; }
 .timeline-card__map-link:hover { color: var(--orange); text-decoration-color: currentColor; }
@@ -488,6 +509,12 @@ ul { list-style: none; margin: 0; padding: 0; }
   .timeline-dot { left: -9px; }
   .timeline-card { flex-direction: column; }
   .timeline-card__date { flex-direction: row; width: auto; height: auto; padding: 8px 16px; gap: 8px; align-self: flex-start; }
+  /* Too little width to float the badge beside the text and still read well — stack it above instead. */
+  .sponsor-badge { float: none; margin: 0 0 14px; }
+}
+
+@media (max-width: 480px) {
+  .sponsor-badge { float: none; margin: 0 0 14px; }
 }
 
 /* ===== Den / CTA blocks ===== */

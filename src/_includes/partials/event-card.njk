@@ -6,10 +6,18 @@
   </div>
   <div class="event-card__body">
     {% if event.data.sponsor_logo %}
+    {% if event.data.sponsor_website_url %}
+    <a class="sponsor-badge" href="{{ event.data.sponsor_website_url }}" target="_blank" rel="noopener">
+    {% else %}
     <div class="sponsor-badge">
+    {% endif %}
       <span class="sponsor-badge__label">Sponsored by</span>
       <img src="{{ event.data.sponsor_logo }}" alt="{{ event.data.sponsor_name or 'Event sponsor' }} logo" loading="lazy">
+    {% if event.data.sponsor_website_url %}
+    </a>
+    {% else %}
     </div>
+    {% endif %}
     {% endif %}
     <div class="event-card__tags">
       <span class="tag">{{ event.data.category }}</span>
@@ -20,10 +28,10 @@
     <p class="event-card__meta">{{ event.data.event_start | dayTimeLabel }}<br>{% if event.data.location_url %}<a class="event-card__map-link" href="{{ event.data.location_url }}" target="_blank" rel="noopener">{{ event.data.location }}</a>{% else %}{{ event.data.location }}{% endif %}{% if event.data.contact %}<br>Contact: {{ event.data.contact }}{% endif %}</p>
     <div class="event-card__actions">
       {% if mode == "sponsor" %}
-        {% if event.data.sponsor_url %}<a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>{% endif %}
+        {% if event.data.sponsor_url and not event.data.sponsor_logo %}<a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>{% endif %}
       {% else %}
         {% if event.data.calendar_url %}<a class="link-arrow" href="{{ event.data.calendar_url }}">Add to Calendar</a>{% endif %}
-        {% if event.data.sponsor_available and event.data.sponsor_url %}
+        {% if event.data.sponsor_available and event.data.sponsor_url and not event.data.sponsor_logo %}
         <a class="link-arrow" href="{{ event.data.sponsor_url }}">{{ button_text }}</a>
         {% endif %}
       {% endif %}
