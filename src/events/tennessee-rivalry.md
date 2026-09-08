@@ -11,6 +11,6 @@ sponsor_available: true
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
-sponsor_logo: /images/uploads/img_9918.png
+sponsor_logo: ""
 ---
 Arrive early, this room fills up fast. Orange and blue strongly encouraged.
