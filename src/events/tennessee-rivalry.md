@@ -13,19 +13,19 @@ permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
 sponsor_logo: ""
 ---
-Bring your friends and family, wear your orange and blue, and come enjoy:
+Join us for a BLUE OUT against Campbell!
+
+
+
+Bring your friends and family, wear your BLUE, and come enjoy:
 
 ~Multiple HD large-screen TVs
 
-
 ~Halftime giveaways on Gator apparel, sporting items, and more!
-
 
 ~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
 
-
 ~Tasty food & drinks with specials only for TGC
-
 
 ~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
 
