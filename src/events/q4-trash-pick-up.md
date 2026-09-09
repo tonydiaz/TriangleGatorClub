@@ -4,14 +4,14 @@ category: GATOR GOOD
 tab: other
 event_start: 2026-12-05T08:00
 location: The Bicycle Chain
-location_url: "https://www.google.com/maps/search/?api=1&query=The+Bicycle+Chain%2C+9000+Glenwood+Ave%2C+Raleigh%2C+NC+27617"
+location_url: https://www.google.com/maps/search/?api=1&query=The+Bicycle+Chain%2C+9000+Glenwood+Ave%2C+Raleigh%2C+NC+27617
 calendar_url: g
-discuss_url: g
 sponsor_available: false
 sponsor_url: g
 permalink: false
+discuss_url: g
 ---
-Join us Saturday, December 5th, at 8 a.m. for our third quarter trash pickup at the corner of Glenwood Ave (Hwy 70) and Triangle Drive!
+Join us Saturday, December 5th, at 8 a.m. for our fourth quarter trash pickup at the corner of Glenwood Ave (Hwy 70) and Triangle Drive!
 
 Participants will pick up trash along a two mile stretch on Glenwood Ave (Hwy 70) in Raleigh, between CarMax and The Angus Barn. Safety vests, gloves, and trash bags will be provided. We will begin the trash pick up at 8:00 a.m. and lasts about an hour and a half. We will meet in the parking area at the intersection of Glenwood Ave/Triangle Dr. next to the Bicycle Chain. Brunch will be provided afterwards. 
 
@@ -19,4 +19,4 @@ Minors ages 12 and older are welcome and encouraged to participate! Those minors
 
 Questions? Contact Gary Lannan (919)454-4694 gjlgator@bellsouth.net
 
-An email will be sent out December 5th by 8:00 a.m. if we have to cancel due to rain. The rain date will be December 12th, same details.
+An email will be sent out December 5th by 7:00 a.m. if we have to cancel due to rain. The rain date will be December 12th, same details.
