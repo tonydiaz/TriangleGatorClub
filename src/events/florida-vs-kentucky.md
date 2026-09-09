@@ -16,9 +16,7 @@ discuss_url: https://www.facebook.com/trianglegatorclub
 ---
 Join TGC and the Carolinas BCN Alumni Group as we team up for our Orange Out Watch Party against Kentucky! 
 
-
-
-Bring your friends and family, wear your orange and blue, and come enjoy:
+Bring your friends and family, wear your ORANGE, and come enjoy:
 
 \~Multiple HD large-screen TVs
 \~Halftime giveaways on Gator apparel, sporting items, and more!
