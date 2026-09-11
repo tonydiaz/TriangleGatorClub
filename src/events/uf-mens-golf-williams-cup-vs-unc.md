@@ -1,5 +1,5 @@
 ---
-title: "UF Men's Golf: William's Cup "
+title: "⛳️ UF Men's Golf: William's Cup "
 category: SOCIAL
 tab: other
 opponent_line: Vs. UNC
