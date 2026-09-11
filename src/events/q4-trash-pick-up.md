@@ -1,13 +1,14 @@
 ---
-title: Q4 Trash Pick Up
+title: 🚮 Q4 Trash Pick Up
 category: GATOR GOOD
 tab: other
 event_start: 2026-12-05T08:00
 location: The Bicycle Chain
 location_url: https://www.google.com/maps/search/?api=1&query=The+Bicycle+Chain%2C+9000+Glenwood+Ave%2C+Raleigh%2C+NC+27617
-calendar_url: g
+contact: Gary Lannan 919-454-4694 gjlgator@bellsouth.net
+calendar_url: ""
 sponsor_available: false
-sponsor_url: g
+sponsor_url: ""
 permalink: false
 discuss_url: g
 ---
