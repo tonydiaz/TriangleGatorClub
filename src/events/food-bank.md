@@ -5,24 +5,23 @@ tab: watch_party
 opponent_line: AT AUBURN
 event_start: 2026-09-19T19:00
 location: RallyPoint Sport Grill
-location_url: "https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513"
+location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513
 calendar_url: https://calendar.google.com/
-discuss_url: https://www.facebook.com/trianglegatorclub
 sponsor_available: true
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 permalink: false
+discuss_url: https://www.facebook.com/trianglegatorclub
 ---
 Bring your friends and family, wear your orange and blue, and come enjoy:
 
-~Multiple HD large-screen TVs
-~Halftime giveaways on Gator apparel, sporting items, and more!
-~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
-~Tasty food & drinks with specials only for TGC
-~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
- 
+* Multiple HD large-screen TVs
+* Halftime giveaways - with a new kid only raffle!
+* Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
+* Tasty food & drinks with specials only for TGC - try our Chomp Juice!
+* Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
+
 We’re excited to let you know that the outdoor patio will be open for dining (weather permitting), and you’re welcome to bring your furry friends to enjoy the fresh air and watch with us — just on the patio, please! 
 
-*patio availability is subject to other events and/or games scheduled by Rally Point
+\*patio availability is subject to other events and/or games scheduled by Rally Point
 
 Questions? Message us on social media, or find one of our Board members at the party!
-
