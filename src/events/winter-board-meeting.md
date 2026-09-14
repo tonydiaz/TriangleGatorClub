@@ -3,7 +3,7 @@ title: 🏈 Florida vs Ole Miss
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS OLE MISS
-event_start: 2026-09-26T19:00
+event_start: 2026-09-26T15:30
 location: RallyPoint Sport Grill
 location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513
 calendar_url: https://calendar.google.com/
@@ -12,7 +12,7 @@ sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
 ---
-Bring your friends and family, wear your BLUE, and come enjoy:
+Bring your friends and family, wear your blue and orange, and come enjoy:
 
 * Multiple HD large-screen TVs
 * Halftime giveaways on Gator apparel, sporting items, and more!
