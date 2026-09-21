@@ -3,7 +3,7 @@ title: 🏈 Florida vs Mizzou
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. MISSOURI
-event_start: 2026-10-03T16:00
+event_start: 2026-10-03T15:30
 location: RallyPoint Sport Grill
 location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513
 calendar_url: https://calendar.google.com/
