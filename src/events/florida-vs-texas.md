@@ -12,7 +12,7 @@ sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
 ---
-Join us for a BLUE out as we take on Texas!
+Join us for a BLUE OUT as we take on Texas!
 
 Bring your friends and family, wear your BLUE, and come enjoy:
 
