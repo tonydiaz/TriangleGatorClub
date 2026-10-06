@@ -15,7 +15,7 @@ discuss_url: https://www.facebook.com/trianglegatorclub
 ---
 The Triangle Gator Club invites *all* to our Homecoming Party at the [RallyPoint](https://www.rallypointsportgrill.com/) this Saturday featuring **FREE** orange and blue cupcakes for all!
 
-**Whether you graduated in the super '60s, groovy ‘70s, electric ‘80s, the grunge phase of the '90s, or the bold 2000s, come dressed in the style of your UF graduation era and relive your favorite memories in the Swamp!**
+**Come dressed in the style of your UF graduation era and relive your favorite memories in the Swamp!**
 
 Don’t miss out on this chance to reconnect, make new friends, and show your Gator spirit from all eras with:
 
