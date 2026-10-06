@@ -13,7 +13,7 @@ sponsor_website_url: https://givebutter.com/c/tgc-homecoming-2026-1kert1/auction
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
 ---
-Get ready to celebrate Gator Homecoming! The Triangle Gator Club invites *all* to our Homecoming Party this Saturday, October 10th at 12:45pm hosted by the [Rally Point](https://ge8ih.r.ag.d.sendibm3.com/mk/cl/f/sh/OycZvHuFo1eQsnbZjs1xp6sL/vOzUjvCUXet6) featuring **FREE** orange and blue cupcakes for all!
+The Triangle Gator Club invites *all* to our Homecoming Party at the [RallyPoint](https://www.rallypointsportgrill.com/) this Saturday featuring **FREE** orange and blue cupcakes for all!
 
 **Whether you graduated in the super '60s, groovy ‘70s, electric ‘80s, the grunge phase of the '90s, or the bold 2000s, come dressed in the style of your UF graduation era and relive your favorite memories in the Swamp!**
 
