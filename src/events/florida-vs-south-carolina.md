@@ -9,19 +9,22 @@ location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+G
 calendar_url: https://calendar.google.com/
 sponsor_available: true
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
+sponsor_website_url: https://givebutter.com/c/tgc-homecoming-2026-1kert1/auction
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
 ---
-Triangle Gator Club invites all (alumni, friends, family, fans) to our unforgettable Homecoming Party featuring:
+Get ready to celebrate Gator Homecoming! The Triangle Gator Club invites *all* to our Homecoming Party this Saturday, October 10th at 12:45pm hosted by the [Rally Point](https://ge8ih.r.ag.d.sendibm3.com/mk/cl/f/sh/OycZvHuFo1eQsnbZjs1xp6sL/vOzUjvCUXet6) featuring **FREE** orange and blue cupcakes for all!
+
+**Whether you graduated in the super '60s, groovy ‘70s, electric ‘80s, the grunge phase of the '90s, or the bold 2000s, come dressed in the style of your UF graduation era and relive your favorite memories in the Swamp!**
+
+Don’t miss out on this chance to reconnect, make new friends, and show your Gator spirit from all eras with:
 
 * *Multiple* HD large-screen TVs
-* Halftime giveaways - with a kid's only raffle (12 & under)
+* Halftime giveaways - place your bid for our silent auction items [HERE](https://givebutter.com/c/tgc-homecoming-2026-1kert1/auction)
 * Halftime 50/50 raffle 
 * Food & drink specials *exclusively* for TGC - try our signature club drink: **Chomp Juice**
 * Gator cheers and chants that make you feel like you’re right at home in the Swamp!
 * Commercial break games and trivia hosted by your TGC Board
-
-**Whether you graduated in the super '60s, groovy ‘70s, electric ‘80s, the grunge phase of the '90s, or the bold 2000s, come dressed in the style of your UF graduation era and relive your favorite memories in the Swamp.**
 
 [RallyPoint](https://ge8ih.r.ag.d.sendibm3.com/mk/cl/f/sh/OycZvHuFo1kTb2QfLmBTOikr/PPRn6twoe92G)'s outdoor patio will be open for dining for you and your furry friends — just on the patio, please!  *patio availability is subject to weather, other events and/or games scheduled by RallyPoint
 
