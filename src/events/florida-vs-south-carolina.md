@@ -22,7 +22,7 @@ Don’t miss out on this chance to reconnect, make new friends, and show your Ga
 * *Multiple* HD large-screen TVs
 * Halftime giveaways - place your bid for our silent auction items [HERE](https://givebutter.com/c/tgc-homecoming-2026-1kert1/auction)
 * Halftime 50/50 raffle 
-* Food & drink specials *exclusively* for TGC - try our signature club drink: **Chomp Juice**
+* Food & drink specials *exclusively* for TGC
 * Gator cheers and chants that make you feel like you’re right at home in the Swamp!
 * Commercial break games and trivia hosted by your TGC Board
 
