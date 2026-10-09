@@ -7,7 +7,7 @@ event_start: 2026-10-31T15:30
 location: RallyPoint Sport Grill
 location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513
 calendar_url: https://calendar.google.com/
-sponsor_available: true
+sponsor_available: false
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 sponsor_name: RallyPoint Sport Grill
 sponsor_logo: /images/uploads/rallypoint-circle-logo.jpg
