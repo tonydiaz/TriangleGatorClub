@@ -1,5 +1,5 @@
 ---
-title: 🏈 FL/GA Howl-o-weenie Watch Party
+title: 🏈 FL/GA Howl-o-Weenie Watch Party
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. GEORGIA
