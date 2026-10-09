@@ -1,28 +1,34 @@
 ---
-title: 🏈 Florida vs Georgia
+title: 🏈 FL/GA Howl-o-weenie Watch Party
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. GEORGIA
-event_start: 2026-10-31T18:00
+event_start: 2026-10-31T15:30
 location: RallyPoint Sport Grill
-location_url: "https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513"
+location_url: https://www.google.com/maps/search/?api=1&query=RallyPoint+Sport+Grill%2C+837+Bass+Pro+Ln%2C+Cary%2C+NC+27513
 calendar_url: https://calendar.google.com/
-discuss_url: https://www.facebook.com/trianglegatorclub
 sponsor_available: true
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
+sponsor_name: RallyPoint Sport Grill
+sponsor_logo: https://www.rallypointsportgrill.com/
+sponsor_website_url: https://www.rallypointsportgrill.com/
 permalink: false
+discuss_url: https://www.facebook.com/trianglegatorclub
 ---
-Bring your friends and family, wear your orange and blue, and come enjoy:
+Get ready for a spooky good time at the ultimate Howl-O-Weenie Watch Party, presented in collaboration with Rally Point! This family-and-pet-friendly Halloween bash is open to the public, so bring your friends, family, and furry companions dressed in your best orange and blue or the ultimate Halloween costume as we cheer on the Gators against Georgia.
 
-~Multiple HD large-screen TVs
-~Halftime giveaways on Gator apparel, sporting items, and more!
-~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
-~Tasty food & drinks with specials only for TGC
-~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
- 
-We’re excited to let you know that the outdoor patio will be open for dining (weather permitting), and you’re welcome to bring your furry friends to enjoy the fresh air and watch with us — just on the patio, please! 
+Party Highlights & Special Event Perks:
 
-*patio availability is subject to other events and/or games scheduled by Rally Point
+* Unlimited Hot Dog Bar & exclusive TGC food and drink specials
+* Bring Your Pets – Dog-friendly outdoor patio dining for all four-legged fans
+* Pet Adoption station on-site
+* Kids' Costume Contest with prizes, plus spooky treats & fun Halloween activities
+* Exclusive Merch: Limited-edition FL/GA Halloween t-shirts (available while supplies last!)
 
-Questions? Message us on social media, or find one of our Board members at the party!
+The Classic Swamp Experience:
 
+* Game Day Action: Multiple HD large-screen TVs tuned to the Florida vs. Georgia game with live Gator cheers and chants
+* Halftime Giveaways: Win official Gator apparel, sporting gear, and more
+* Halftime 50/50 Raffle: Half the pot goes to the winner, half directly supports the TGC Scholarship Fund
+
+Come join the fun, enjoy the game, and celebrate Halloween with your fellow Gators! Have questions? Send us a message on social media or grab a Board member during the game.
