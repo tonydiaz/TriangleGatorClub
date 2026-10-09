@@ -10,7 +10,7 @@ calendar_url: https://calendar.google.com/
 sponsor_available: true
 sponsor_url: "mailto:trianglegatorclub@gmail.com?subject=Sponsor: Football Watch Party"
 sponsor_name: RallyPoint Sport Grill
-sponsor_logo: https://www.rallypointsportgrill.com/
+sponsor_logo: /images/uploads/rallypoint-circle-logo.jpg
 sponsor_website_url: https://www.rallypointsportgrill.com/
 permalink: false
 discuss_url: https://www.facebook.com/trianglegatorclub
