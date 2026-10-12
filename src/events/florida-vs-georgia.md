@@ -19,11 +19,11 @@ Get ready for a spooky good time at the ultimate Howl-O-Weenie Watch Party, pres
 
 Party Highlights & Special Event Perks:
 
+* Exclusive Merch: Limited-edition FL/GA Halloween t-shirts CLICK HERE TO BUY
 * Unlimited Hot Dog Bar & exclusive TGC food and drink specials
 * Bring Your Pets – Dog-friendly outdoor patio dining for all four-legged fans
 * Pet Adoption station on-site
 * Kids' Costume Contest with prizes, plus spooky treats & fun Halloween activities
-* Exclusive Merch: Limited-edition FL/GA Halloween t-shirts (available while supplies last!)
 
 The Classic Swamp Experience:
 
