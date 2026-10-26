@@ -18,11 +18,11 @@ Join TGC and the Carolinas BCN Alumni Group as we team up for our Orange Out Wat
 
 Bring your friends and family, wear your ORANGE, and come enjoy:
 
-\~Multiple HD large-screen TVs
-\~Halftime giveaways on Gator apparel, sporting items, and more!
-\~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
-\~Tasty food & drinks with specials only for TGC
-~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
+* ~Multiple HD large-screen TVs
+* ~Halftime giveaways on Gator apparel, sporting items, and more!
+* ~Halftime 50/50 raffle (winner gets half the pot, the other half goes to the TGC scholarship fund)
+* ~Tasty food & drinks with specials only for TGC
+* ~Gator cheers and chants that make you feel like you’re right at home in the Swamp! 
 
 We’re excited to let you know that the outdoor patio will be open for dining (weather permitting), and you’re welcome to bring your furry friends to enjoy the fresh air and watch with us — just on the patio, please! 
 
