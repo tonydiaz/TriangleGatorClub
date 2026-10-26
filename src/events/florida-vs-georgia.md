@@ -19,16 +19,18 @@ Get ready for a spooky good time at the ultimate Howl-O-Weenie Watch Party, pres
 
 Party Highlights & Special Event Perks:
 
-* Exclusive Merch: Limited-edition FL/GA Halloween t-shirts [CLICK HERE TO BUY](https://triangle-gator-club.printify.me/product/33031557)
-* Unlimited Hot Dog Bar & exclusive TGC food and drink specials
-* Bring Your Pets – Dog-friendly outdoor patio dining for all four-legged fans
-* Pet Adoption station on-site
-* Kids' Costume Contest with prizes, plus spooky treats & fun Halloween activities
+* ~Exclusive Merch: Limited-edition FL/GA Halloween t-shirts [CLICK HERE TO BUY](https://triangle-gator-club.printify.me/product/33031557)
+* ~Unlimited Hot Dog Bar & exclusive TGC food and drink specials
+* ~Bring Your Pets & dress 'em up – Dog-friendly outdoor patio dining for all four-legged fans, including a dog costume contest
+* ~Pet Adoption station on-site
+* ~Kids' Costume Contest with prizes & fun Halloween activities - 12 & under get a free treat bag!
 
 The Classic Swamp Experience:
 
-* Game Day Action: Multiple HD large-screen TVs tuned to the Florida vs. Georgia game with live Gator cheers and chants
-* Halftime Giveaways: Win official Gator apparel, sporting gear, and more
-* Halftime 50/50 Raffle: Half the pot goes to the winner, half directly supports the TGC Scholarship Fund
+* ~Game Day Action: Multiple HD large-screen TVs tuned to the Florida vs. Georgia game with live Gator cheers and chants
+* ~Halftime Giveaways: Win official Gator apparel, sporting gear, and more
+* ~Halftime 50/50 Raffle: Half the pot goes to the winner, half directly supports the TGC Scholarship Fund
 
-Come join the fun, enjoy the game, and celebrate Halloween with your fellow Gators! Have questions? Send us a message on social media or grab a Board member during the game.
+Come join the fun, enjoy the game, and celebrate Halloween with your fellow Gators! 
+
+Have questions? Send us a message on social media or grab a Board member during the game.
