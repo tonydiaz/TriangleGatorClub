@@ -1,5 +1,5 @@
 ---
-title: 🏈 Florida vs Kentucky
+title: 🏈 UF vs Kentucky
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. KENTUCKY
