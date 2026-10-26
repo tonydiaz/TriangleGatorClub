@@ -1,5 +1,5 @@
 ---
-title: 🏈 UF vs OK
+title: 🏈 UF vs Oklahoma
 category: WATCH PARTY
 tab: watch_party
 opponent_line: VS. OKLAHOMA
