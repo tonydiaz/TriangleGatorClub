@@ -14,10 +14,10 @@ It’s time to wrap up a fantastic year with fellow Gators! No matter what you c
 
 ### What to Expect:
 
-* * **Arcade & Games**: Enjoy the venue's awesome brewcade vibe with arcade cabinets, dartboards, and a dedicated table of board games!
-  * **Holiday Raffle & Special Gifts**: Take part in our holiday raffle and make sure to grab a special holiday party favor for all attendees!   
-  * **Delicious Food & Drinks**: Skip cooking dinner and let us handle it! Enjoy great heavy hors d'oeuvres alongside Clouds Brewing’s fantastic craft beers.
-  * **Community & Connection**: Catch up with local alumni, meet the board, and celebrate everything we've built together this year in the Triangle.  
+* **~Arcade & Games**: Enjoy the venue's awesome brewcade vibe with arcade cabinets, dartboards, and a dedicated table of board games!
+* **~Holiday Raffle & Special Gifts**: Take part in our holiday raffle and make sure to grab a special holiday party favor for all attendees!   
+* **~Delicious Food & Drinks**: Skip cooking dinner and let us handle it! Enjoy great heavy hors d'oeuvres alongside Clouds Brewing’s fantastic craft beers.
+* **~Community & Connection**: Catch up with local alumni, meet the board, and celebrate everything we've built together this year in the Triangle.  
 
 **Dress Code**: Wear your best Gator Gear or your ugliest Christmas sweater!   
 
