@@ -13,6 +13,6 @@ Get ready for a massive clash as the Gators take on Duke! Because of the late ti
 
 Join us on **Tuesday, December 1** with tipoff at **9:30 PM** at [RallyPoint](https://www.rallypointsportgrill.com/). We will have a dedicated area ready for everyone who wants to watch the game.
 
-Bring your orange and blue energy, order some great food and drinks with our exclusive TGC specials, and watch the Gators battle it out. Whether you're staying up late to watch every possession or just want a fun spot to hang out with fellow alumni, we'd love to have you join our reserved space. 
+Bring your orange and blue energy, order some great food and drinks with our exclusive TGC specials, and watch the Gators battle it out. Whether you're staying up late to watch every possession or just want a fun spot to hang out with fellow alumni, we'd love to have you.
 
 No RSVP is needed—just show up and grab a seat with us!
