@@ -10,7 +10,7 @@ permalink: false
 ---
 ### Celebrate the Season with the Gator Nation!
 
-It’s time to wrap up a fantastic year with fellow Gators! No matter what you celebrate, come join the Triangle Gator Club for our FREE Holiday Party as we gather to celebrate the holidays, look back on our favorite memories, and toast to the orange and blue.
+It’s time to wrap up a fantastic year with fellow Gators! No matter what you celebrate, drop in with the Triangle Gator Club for our FREE holiday party. Stop by whenever works best for you from **3-5pm** as we gather to toast the season, look back on our favorite memories, and celebrate everything we've built together this year.
 
 ### What to Expect:
 
